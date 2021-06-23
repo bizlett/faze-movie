@@ -14,9 +14,9 @@ Thank you for visiting my project! If you have any feedback or questions, head o
 ## Table of Contents
 1. [UX](#ux)
     * [User Stories](#user-stories)
-    * [User Goals](#user-goals)
-        * [Requirements](#requirements)
-        * [Expectations](#expectations)
+        * [First Time Visitor Goals](#first-time-visitor-goals)
+        * [Returning Visitor Goals](#returning-visitor-goals)
+        * [Frequent Visitor Goals](#frequent-visitor-goals)
     * [Business Goals](#business-goals)
         * [Requirements](#requirements)
         * [Expectations](#expectations)
@@ -47,12 +47,11 @@ Thank you for visiting my project! If you have any feedback or questions, head o
 
 ### **User Stories**
 
-<a></a>
+#### **First Time Visitor Goals**
 
-### **User Goals**
-#### *Requirements* 
+#### **Returning Visitor Goals**
 
-#### *Expectations*
+#### **Frequent Visitor Goals**
 
 <a></a>
 
