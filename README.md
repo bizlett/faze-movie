@@ -4,7 +4,7 @@
 
 ## **Goal for this project**
 
-FAZE is an upcoming movie, due for release autumn 2021. A contained sci-fi thriller, this movie is high stakes, high tension and high altitude - literally. This top secret mission is under wraps at the moment, but you can follow us to get the latest exclusive news as it comes and of course book your special ticket deals when we announce our theatres later this year. This is one you won't want to miss!
+FAZE is an upcoming movie, due for release autumn 2021. A contained sci-fi thriller, this movie is high stakes, high tension and high altitude - literally. This top secret mission is under wraps at the moment, but you can follow us to get the latest exclusive news as it comes in, and of course book your special ticket deals when we announce our theatres later this year. This is one you won't want to miss!
 
 Thank you for visiting my project! If you have any feedback or questions, head over to my GitHub contact details and feel free to reach out to me. 
 
@@ -71,8 +71,16 @@ Thank you for visiting my project! If you have any feedback or questions, head o
 
 ### **Design Choices**
 #### *Fonts*
+I selected all my fonts from [Google fonts](https://fonts.google.com/).
+
+The film title on the hero image text overlay has its own font in order to make it stand out. I used [Syne Mono](https://fonts.google.com/specimen/Syne+Mono?category=Monospace&preview.text=FAZE&preview.text_type=custom)
+
+I decided to stick with the monotype fonts for the headings, choosing [Overpass Mono](https://fonts.google.com/specimen/Overpass+Mono?category=Monospace&preview.text=ABOUT&preview.text_type=custom) for my headings. 
+
+The overall content is written in [Inconsolata](https://fonts.google.com/specimen/Inconsolata?category=Monospace&preview.text=directed%20by&preview.text_type=custom), with Gill Sans font as the secondary. 
 
 #### *Icons*
+My icons have been sourced from [Font Awesome](https://fontawesome.com/). I selected only free icons that are self-explanatory and in keeping with the stripped back design of the website. They have been styled in keeping with the website.
         
 #### *Colors*
 
