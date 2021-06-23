@@ -12,32 +12,32 @@ Thank you for visiting my project! If you have any feedback or questions, head o
 <a></a>
 
 ## Table of Contents
-*[UX](#ux)
-    *[User Stories](#user-stories)
-    *[User Goals](#user-goals)
-        *[Requirements](#requirements)
-        *[Expectations](#expectations)
-    *[Business Goals](#business-goals)
-        *[Requirements](#requirements)
-        *[Expectations](#expectations)
-    *[Design Choices](#design-choices)
-        *[Fonts](#fonts)
-        *[Icons](#icons)
-        *[Colors](#colors)
-        *[Structure](#structure)
-*[Wireframes](#wireframes)
-*[Roadmap](#roadmap)
-    *[Existing Features](#existing-features)
-    *[Future Features](#future-features)
-*[Technologies](#technolgies)
-*[Testing](#testing)
-    *[Validator Testing](#validator-testing)
-    *[Known Bugs](#known-bugs)
-*[Deployment](#deployment)
-*[Credits](#credits)
-    *[Code](#code)
-    *[Media](#media)
-    *[Acknowledgements](#acknowledgements)
+1. [UX](#ux)
+    * [User Stories](#user-stories)
+    * [User Goals](#user-goals)
+        * [Requirements](#requirements)
+        * [Expectations](#expectations)
+    * [Business Goals](#business-goals)
+        * [Requirements](#requirements)
+        * [Expectations](#expectations)
+    * [Design Choices](#design-choices)
+        * [Fonts](#fonts)
+        * [Icons](#icons)
+        * [Colors](#colors)
+        * [Structure](#structure)
+2. [Wireframes](#wireframes)
+3. [Roadmap](#roadmap)
+    * [Existing Features](#existing-features)
+    * [Future Features](#future-features)
+4. [Technologies](#technolgies)
+5. [Testing](#testing)
+    * [Validator Testing](#validator-testing)
+    * [Known Bugs](#known-bugs)
+6. [Deployment](#deployment)
+7. [Credits](#credits)
+    * [Code](#code)
+    * [Media](#media)
+    * [Acknowledgements](#acknowledgements)
 
 <a name="ux"></a>
 
@@ -45,32 +45,32 @@ Thank you for visiting my project! If you have any feedback or questions, head o
 
 <a></a>
 
-###**User Stories**
+### **User Stories**
 
 <a></a>
 
-###**User Goals**
-####*Requirements* 
+### **User Goals**
+#### *Requirements* 
 
-####*Expectations*
-
-<a></a>
-
-###**Business Goals**
-####*Requirements* 
-
-####*Expectations*
+#### *Expectations*
 
 <a></a>
 
-###**Design Choices**
-####*Fonts*
+### **Business Goals**
+#### *Requirements* 
 
-####*Icons*
+#### *Expectations*
+
+<a></a>
+
+### **Design Choices**
+#### *Fonts*
+
+#### *Icons*
         
-####*Colors*
+#### *Colors*
 
-####*Structure*
+#### *Structure*
 
 [Back to Top](#table-of-contents)
 
@@ -78,7 +78,7 @@ Thank you for visiting my project! If you have any feedback or questions, head o
 
 <a name="wireframes"></a>
 
-##**Wireframes**
+## **Wireframes**
 
 [Back to Top](#table-of-contents)
 
@@ -86,15 +86,15 @@ Thank you for visiting my project! If you have any feedback or questions, head o
 
 <a name="roadmap"></a>
 
-##**Roadmap**
+## **Roadmap**
 
 <a></a>
 
-###**Existing Features**
+### **Existing Features**
 
 <a></a>
 
-###**Future Features**
+### **Future Features**
 
 [Back to Top](#table-of-contents)
 
@@ -102,7 +102,7 @@ Thank you for visiting my project! If you have any feedback or questions, head o
 
 <a name="technologies"></a>
 
-##**Technologies**
+## **Technologies**
 
 [Back to Top](#table-of-contents)
 
@@ -110,15 +110,15 @@ Thank you for visiting my project! If you have any feedback or questions, head o
 
 <a name="testing"></a>
 
-##**Testing**
+## **Testing**
 
 <a></a>
 
-###**Validator Testing**
+### **Validator Testing**
 
 <a></a>
 
-###**Known Bugs**
+### **Known Bugs**
 
 [Back to Top](#table-of-contents)
 
@@ -126,7 +126,7 @@ Thank you for visiting my project! If you have any feedback or questions, head o
 
 <a name="deployment"></a>
 
-##**Deployment**
+## **Deployment**
 
 [Back to Top](#table-of-contents)
 
@@ -134,17 +134,17 @@ Thank you for visiting my project! If you have any feedback or questions, head o
 
 <a name="credits"></a>
 
-##**Credits**
+## **Credits**
 
 <a></a>
 
-###**Code**
+### **Code**
 
 <a></a>
 
-###**Media**
+### **Media**
 
-###**Acknowledgements**
+### **Acknowledgements**
 
 [Back to Top](#table-of-contents)
 
