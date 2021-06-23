@@ -1,59 +1,151 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# **FAZE the Movie**
 
-Welcome USER_NAME,
+![Mokeup image]()
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## **Goal for this project**
 
-## Gitpod Reminders
+FAZE is an upcoming movie, due for release autumn 2021. A contained sci-fi thriller, this movie is high stakes, high tension and high altitude - literally. This top secret mission is under wraps at the moment, but you can follow us to get the latest exclusive news as it comes and of course book your special ticket deals when we announce our theatres later this year. This is one you won't want to miss!
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Thank you for visiting my project! If you have any feedback or questions, head over to my GitHub contact details and feel free to reach out to me. 
 
-`python3 -m http.server`
+---
+<a></a>
 
-A blue button should appear to click: _Make Public_,
+## Table of Contents
+*[UX](#ux)
+    *[User Stories](#user-stories)
+    *[User Goals](#user-goals)
+        *[Requirements](#requirements)
+        *[Expectations](#expectations)
+    *[Business Goals](#business-goals)
+        *[Requirements](#requirements)
+        *[Expectations](#expectations)
+    *[Design Choices](#design-choices)
+        *[Fonts](#fonts)
+        *[Icons](#icons)
+        *[Colors](#colors)
+        *[Structure](#structure)
+*[Wireframes](#wireframes)
+*[Roadmap](#roadmap)
+    *[Existing Features](#existing-features)
+    *[Future Features](#future-features)
+*[Technologies](#technolgies)
+*[Testing](#testing)
+    *[Validator Testing](#validator-testing)
+    *[Known Bugs](#known-bugs)
+*[Deployment](#deployment)
+*[Credits](#credits)
+    *[Code](#code)
+    *[Media](#media)
+    *[Acknowledgements](#acknowledgements)
 
-Another blue button should appear to click: _Open Browser_.
+<a name="ux"></a>
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## **UX**
 
-A blue button should appear to click: _Make Public_,
+<a></a>
 
-Another blue button should appear to click: _Open Browser_.
+###**User Stories**
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+<a></a>
 
-To log into the Heroku toolbelt CLI:
+###**User Goals**
+####*Requirements* 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+####*Expectations*
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+<a></a>
 
-## Updates Since The Instructional Video
+###**Business Goals**
+####*Requirements* 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+####*Expectations*
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+<a></a>
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+###**Design Choices**
+####*Fonts*
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+####*Icons*
+        
+####*Colors*
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+####*Structure*
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+[Back to Top](#table-of-contents)
 
 ---
 
-Happy coding!
+<a name="wireframes"></a>
+
+##**Wireframes**
+
+[Back to Top](#table-of-contents)
+
+---
+
+<a name="roadmap"></a>
+
+##**Roadmap**
+
+<a></a>
+
+###**Existing Features**
+
+<a></a>
+
+###**Future Features**
+
+[Back to Top](#table-of-contents)
+
+---
+
+<a name="technologies"></a>
+
+##**Technologies**
+
+[Back to Top](#table-of-contents)
+
+---
+
+<a name="testing"></a>
+
+##**Testing**
+
+<a></a>
+
+###**Validator Testing**
+
+<a></a>
+
+###**Known Bugs**
+
+[Back to Top](#table-of-contents)
+
+---
+
+<a name="deployment"></a>
+
+##**Deployment**
+
+[Back to Top](#table-of-contents)
+
+---
+
+<a name="credits"></a>
+
+##**Credits**
+
+<a></a>
+
+###**Code**
+
+<a></a>
+
+###**Media**
+
+###**Acknowledgements**
+
+[Back to Top](#table-of-contents)
+
+---
