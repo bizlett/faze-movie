@@ -18,13 +18,12 @@ Thank you for visiting my project! If you have any feedback or questions, head o
         * [Returning Visitor Goals](#returning-visitor-goals)
         * [Frequent Visitor Goals](#frequent-visitor-goals)
     * [Business Goals](#business-goals)
-        * [Requirements](#requirements)
-        * [Expectations](#expectations)
     * [Design Choices](#design-choices)
         * [Fonts](#fonts)
         * [Icons](#icons)
         * [Colors](#colors)
         * [Structure](#structure)
+        * [Imagery](#imagery)
 2. [Wireframes](#wireframes)
 3. [Roadmap](#roadmap)
     * [Existing Features](#existing-features)
@@ -46,19 +45,27 @@ Thank you for visiting my project! If you have any feedback or questions, head o
 <a></a>
 
 ### **User Stories**
-
 #### **First Time Visitor Goals**
+* As a first time user, I want to easily understand the purpose of the site.
+* As a first time user, I want to easily navigate around the site.
+* As a first time user, I want content to load quickly.
+* As a first time user, I want to find out what the film is about.
 
 #### **Returning Visitor Goals**
+* As a returning user, I want to know when the film is being released.
+* As a returning user, I want to book tickets for the film.
 
 #### **Frequent Visitor Goals**
+* As a frequent user, I want to know the latest updates on the film.
+* As a frequent user, I want to see the latest content released about the film.
 
 <a></a>
 
 ### **Business Goals**
-#### *Requirements* 
-
-#### *Expectations*
+* Create an online presence for the film
+* Let users experience the story
+* Offer shareable video marketing content
+* Build a buzz around the film ahead of its release
 
 <a></a>
 
@@ -70,6 +77,8 @@ Thank you for visiting my project! If you have any feedback or questions, head o
 #### *Colors*
 
 #### *Structure*
+
+#### *Imagery*
 
 [Back to Top](#table-of-contents)
 
