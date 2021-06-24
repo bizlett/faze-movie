@@ -42,12 +42,12 @@
     font-weight: bold;
     margin-bottom: 30px;
     font-family: 'Syne Mono', 'Gill Sans';
-    font-size: 8rem;
+    font-size: 10rem;
 }
 
 .jumbotron h2 {
     font-family: 'Overpass Mono', 'Gill Sans';
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: 500;
     color: #fff;
 }
@@ -55,14 +55,19 @@
 
 .jumbotron .lead {
     margin: 25px, 0;
-    color: #a7a7a7;
+    color: #fafafa;
 }
 
 .lead {
-    font-size: 1.75rem;
-    font-weight: 400;
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: 'Inconsolata', 'Gill Sans';
+    padding-top: 20px;
 }
 
+#hero {
+    padding-top: 100px;
+}
 
 /* .....................................Nav Bar */
 
