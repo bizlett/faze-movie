@@ -82,11 +82,17 @@ The overall content is written in [Inconsolata](https://fonts.google.com/specime
 #### *Icons*
 My icons have been sourced from [Font Awesome](https://fontawesome.com/). I selected only free icons that are self-explanatory and in keeping with the stripped back design of the website. They have been styled in keeping with the website.
         
-#### *Colors*
+#### *Colours*
 
 #### *Structure*
 
+I have used [Bootstrap v5.0.2](https://getbootstrap.com/) to create the overall structure of my website.
+
 #### *Imagery*
+
+Still images on the website were sourced from [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/). I specifically chose landscape photos for the gallery and hero images for continuity in design as my gallery is displayed on the page instead of using a carousel or similar. I chose a portrait photo for the mobile hero image to better fit the flow of design for the device.
+
+I cut my trailer together using (Microsoft Photos app)[https://www.microsoft.com/en-gb/windows/photo-movie-editor]. The royalty free, stock music was provided through the editing app. The stock footage in the trailer was sourced from [Pexels](https://www.pexels.com/).
 
 [Back to Top](#table-of-contents)
 
@@ -95,6 +101,20 @@ My icons have been sourced from [Font Awesome](https://fontawesome.com/). I sele
 <a name="wireframes"></a>
 
 ## **Wireframes**
+
+I used [Balsamiq](https://balsamiq.com/wireframes/) to create wireframes for my project:
+
+<a></a>
+
+[Desktop wireframe]()
+
+<a></a>
+
+[Tablet wireframe]()
+
+<a></a>
+
+[Mobile wireframe]()
 
 [Back to Top](#table-of-contents)
 
@@ -107,6 +127,20 @@ My icons have been sourced from [Font Awesome](https://fontawesome.com/). I sele
 <a></a>
 
 ### **Existing Features**
+
+#### Navigation
+
+#### Hero Image
+
+#### Trailer
+
+#### About
+
+#### Gallery
+
+#### News
+
+#### Footer
 
 <a></a>
 
@@ -156,11 +190,24 @@ My icons have been sourced from [Font Awesome](https://fontawesome.com/). I sele
 
 ### **Code**
 
+* [Anouk Smet](https://github.com/AnoukSmet/Naturazy) for README inspiration!
+
 <a></a>
 
 ### **Media**
 
+* [Mikhail Nilov](https://www.pexels.com/collections/space-astronauts-mars-srn3hh1/)
+* [Josué AS](https://unsplash.com/@yehoshuaas)
+* [Nasa](https://unsplash.com/@nasa) 
+
+<a></a>
+
 ### **Acknowledgements**
+
+* [Simen Dahlin](https://github.com/Eventyret) for support in creating this website
+* Code Institute Slack community
+* Stack Overflow community
+* My partner Chris for his endless patience as I wrote this instead of planned our wedding...
 
 [Back to Top](#table-of-contents)
 
