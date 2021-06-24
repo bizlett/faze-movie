@@ -86,7 +86,7 @@ My icons have been sourced from [Font Awesome](https://fontawesome.com/). I sele
 
 #### *Structure*
 
-I have used [Bootstrap v5.0.2](https://getbootstrap.com/) to create the overall structure of my website.
+I have used [Bootstrap v4.6](https://getbootstrap.com/) to create the overall structure of my website.
 
 #### *Imagery*
 
