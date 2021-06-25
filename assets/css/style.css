@@ -2,7 +2,7 @@
 
 html {
     scroll-padding-top: 2.5rem;
-    font-size: 50%;
+    font-size: 70%;
     scroll-behavior: smooth;
 }
 
@@ -12,10 +12,98 @@ body {
     padding: 0;
     margin: 0;
     position: relative;
+    font-size: 1.75rem;
+}
+
+/* .....................................Colours */
+
+.bg-color-dark {
+    background-color: #2b2d34;
+    color: #bfbfbf;
+}
+
+/*.....................................Padding, margin, text */
+
+.heading {
+    font-family: 'Space Mono', 'Gill Sans';
+    text-align: center;
+    margin: 1.5rem 0;
+    font-size: 3rem;
+}
+
+.sub-heading {
+    font-family: 'PT Sans', 'Gill Sans';
+    text-align: left;
+    margin: 1.5rem 0;
     font-size: 2rem;
 }
 
-/* .....................................Media Queries */
+.text-property{
+    text-align: left;
+    margin-top: 1.5rem;
+}
+
+.paragraph-text {
+    width: 100%;
+    text-align: left;
+    margin: 0;
+}
+
+
+/*.....................................Block dividers */
+
+.hr {
+    border: 2px solid #C2917C;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+
+/* .....................................Header with navigation bar */
+
+.nav-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    text-align: center;
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: #2B2D34
+}
+
+.navbar-brand {}
+
+
+.navbar-dark .navbar-toggler {
+    border-color: #C2917C;
+    padding:1.5rem;
+    float: right;
+    margin: 0.5rem;
+}
+
+#navbarNavDropdown li a {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+    line-height: 5rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #FFFFFE;
+}
+
+#navbarNavDropdown li a:hover {
+    color:#C2917C;
+}
+
 
 
 
@@ -80,32 +168,7 @@ body {
 
 /* .....................................Nav Bar */
 
-.nav-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding-left: 0;
-    padding-right: 0;
-    z-index: 1;
-}
 
-.navbar {
-    margin-bottom: 0;
-    border: 0;
-    width: 100%;
-    background-color: #2D3142;
-}
-
-.navbar .navbar-toggler {
-    border: 0;
-}
-
-.navbar-brand {}
-
-
-.navbar .navbar-nav a {
-    font-weight: bold;
-}
 
 /* .....................................About*/
 
@@ -139,3 +202,5 @@ body {
  body h2 {
      font-weight: bold;
  }
+
+ /* .....................................Media Queries */
