@@ -1,4 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Space+Mono:wght@400;700&display=swap');
+
+html {
+    scroll-padding-top: 2.5rem;
+    font-size: 50%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'PT Sans', 'Gill Sans';
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    font-size: 2rem;
+}
+
 /* .....................................Media Queries */
 
 
@@ -98,13 +114,13 @@
 }
 
 .leftcol {
-    text-align: justify;
+    text-align: left;
     font-family: 'PT Sans', 'Gill Sans';
     background-color: #4f5d75;
 }
 
 .rightcol {
-    text-align: justify;
+    text-align: left;
     font-family: 'PT Sans', 'Gill Sans';
 }
 
