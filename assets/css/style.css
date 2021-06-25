@@ -77,7 +77,7 @@
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: #2D3142;
 }
 
 .navbar .navbar-toggler {
@@ -120,6 +120,6 @@
 body {
     color: #bfc0c0;
 }
- body h2, {
+ body h2 {
      font-weight: bold;
  }
