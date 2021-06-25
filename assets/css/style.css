@@ -82,7 +82,7 @@ body {
 
 
 .navbar-dark .navbar-toggler {
-    border-color: #C2917C;
+    border: none;
     padding:1.5rem;
     float: right;
     margin: 0.5rem;
@@ -105,14 +105,12 @@ body {
 }
 
 
+/* .....................................Hero image and jumbotron */
 
-
-/* .....................................Hero */
-
-.hero-container {
+#hero-image {
     height: 90vh;
 
-    background: url(../images/hero.jpg) no-repeat bottom fixed;
+    background: url(../images/hero.jpg) no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -125,11 +123,12 @@ body {
     position: relative;
 }
 
-/* .....................................Jumbotron */
+#hero-container {}
 
 .jumbotron {
     background-color: transparent;
-    padding-top: 100px;
+    padding-top: 10rem;
+    text-align: right;
 }
 
 .jumbotron-header {
