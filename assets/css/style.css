@@ -1,16 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700&family=Overpass+Mono:wght@300;400;600;700&family=Syne+Mono&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Space+Mono:wght@400;700&display=swap');
 /* .....................................Media Queries */
 
-@media (min-width: 768px) {
-    .navbar-brand.abs
-        {
-            position: absolute;
-            width: 100%;
-            left: 0;
-            text-align: center;
-        }
-    }
 
 
 /* .....................................Hero */
@@ -24,6 +14,7 @@
     -o-background-size: cover;
     background-size: cover;
 
+    display: flex;
     align-items: center;
     justify-content: center;
 
@@ -41,12 +32,12 @@
     color: #f0f0f0;
     font-weight: bold;
     margin-bottom: 30px;
-    font-family: 'Syne Mono', 'Gill Sans';
+    font-family: 'Space Mono', 'Gill Sans';
     font-size: 10rem;
 }
 
 .jumbotron h2 {
-    font-family: 'Overpass Mono', 'Gill Sans';
+    font-family: 'PT Sans', 'Gill Sans';
     font-size: 2rem;
     font-weight: 500;
     color: #fff;
@@ -61,13 +52,15 @@
 .lead {
     font-size: 4rem;
     font-weight: 600;
-    font-family: 'Inconsolata', 'Gill Sans';
+    font-family: 'PT Sans', 'Gill Sans';
     padding-top: 20px;
 }
 
 #hero {
     padding-top: 100px;
 }
+
+#release {}
 
 /* .....................................Nav Bar */
 
@@ -84,17 +77,49 @@
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .navbar .navbar-toggler {
     border: 0;
 }
 
-.navbar-brand {
-    font-weight: bold;
-}
+.navbar-brand {}
+
 
 .navbar .navbar-nav a {
     font-weight: bold;
 }
+
+/* .....................................About*/
+
+.about-container {
+    background: #2D3142;
+}
+
+.leftcol {
+    text-align: justify;
+    font-family: 'PT Sans', 'Gill Sans';
+    background-color: #4f5d75;
+}
+
+.rightcol {
+    text-align: justify;
+    font-family: 'PT Sans', 'Gill Sans';
+}
+
+.header {
+    font-family: 'Space Mono','Gill Sans';
+    text-align: center;
+}
+
+#about span {
+    font-weight: bold;
+}
+
+body {
+    color: #bfc0c0;
+}
+ body h2, {
+     font-weight: bold;
+ }
