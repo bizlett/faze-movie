@@ -52,8 +52,8 @@ body {
 
 /*.....................................Block dividers */
 
-.hr {
-    border: 2px solid #C2917C;
+.hr-main {
+    border: 1px solid #C2917C;
     width: 100%;
     margin: 2rem 0;
 }
@@ -175,20 +175,36 @@ body {
     background: #2D3142;
 }
 
-.leftcol {
+.about-column {
     text-align: left;
     font-family: 'PT Sans', 'Gill Sans';
-    background-color: #4f5d75;
+    background-color: #555C67;
+    padding: 1em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-bottom: 1.5em;
+    overflow: hidden;
+    position: relative;
 }
 
-.rightcol {
-    text-align: left;
-    font-family: 'PT Sans', 'Gill Sans';
+.about-column h3 {
+    font-size: 2.5rem;
+}
+
+#leftcol {
+    float: right;
+}
+
+#rightcol {
+    line-height: 250%;
+    float: left;
 }
 
 .header {
     font-family: 'Space Mono','Gill Sans';
     text-align: center;
+    font-size: 3.5rem;
+    margin: 1rem;
 }
 
 #about span {
