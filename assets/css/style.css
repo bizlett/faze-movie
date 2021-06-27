@@ -102,6 +102,7 @@ body {
 
 #navbarNavDropdown li a:hover {
     color:#C2917C;
+    text-decoration: underline;
 }
 
 
