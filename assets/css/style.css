@@ -58,6 +58,12 @@ body {
     margin: 2rem 0;
 }
 
+.hr-short {
+    border: 1px solid #C2917C;
+    width: 20%;
+    align-items: center;
+}
+
 
 /* .....................................Header with navigation bar */
 
@@ -138,6 +144,7 @@ body {
     margin-bottom: 30px;
     font-family: 'Space Mono', 'Gill Sans';
     font-size: 10rem;
+    text-shadow: 4px 4px #C2917C;
 }
 
 .jumbotron h2 {
@@ -204,8 +211,11 @@ body {
 .header {
     font-family: 'Space Mono','Gill Sans';
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 3rem;
+    text-transform: uppercase;
     margin: 1rem;
+    color: #FFFFFE;
+    -webkit-text-stroke: 1px #C2917C;
 }
 
 #about span {
@@ -218,5 +228,13 @@ body {
  body h2 {
      font-weight: bold;
  }
+
+ /* .....................................Trailer */
+
+.trailer-container {
+    background-color: #2B2D34;
+    padding-bottom: 4rem;
+}
+
 
  /* .....................................Media Queries */
