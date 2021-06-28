@@ -52,13 +52,13 @@ body {
 /*.....................................Block dividers */
 
 .hr-main {
-    border: 1px solid #C2917C;
+    border: 1px solid #EF8354;
     width: 100%;
     margin: 2rem 0;
 }
 
 .hr-short {
-    border: 2px solid #C2917C;
+    border: 2px solid #EF8354;
     width: 3%;
     align-items: center;
 }
@@ -72,6 +72,22 @@ body {
     padding-left: 0;
     padding-right: 0;
     z-index: 1;
+}
+
+.two-column {
+    text-align: left;
+    font-family: 'PT Sans', 'Gill Sans';
+    background-color: #555C67;
+    padding: 1em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-bottom: 1.5em;
+    overflow: hidden;
+    position: relative;
+}
+
+.two-column h3 {
+    font-size: 2.5rem;
 }
 
 .about-container {
@@ -95,7 +111,7 @@ body {
 
 .btn-trailer {
     color: #FFFFFE;
-    background-color: #C2917C;
+    background-color: #EF8354;
     height: 50px;
     width: 200px;
     font-size: 2.25rem;
@@ -109,9 +125,19 @@ body {
 .btn-trailer:active,
 .btn-trailer:focus,
 .btn-trailer:active:focus {
-    background-color: #A6694E;
-    border-color: #A6694E;
+    background-color: #f35c1b;
+    border-color: #f35c1b;
     color: #FFFFFE;
+}
+
+/* .....................................Icons */
+
+.two-column i {
+    color: #FFFFFE;
+}
+
+.two-column i:hover {
+    color: #EF8354;
 }
 
 /* .....................................Header with navigation bar */
@@ -146,7 +172,7 @@ body {
 }
 
 #navbarNavDropdown li a:hover {
-    color:#C2917C;
+    color:#EF8354;
     text-decoration: underline;
 }
 
@@ -182,14 +208,14 @@ body {
     margin-bottom: 30px;
     font-family: 'Space Mono', 'Gill Sans';
     font-size: 10rem;
-    text-shadow: 4px 4px #C2917C;
+    text-shadow: 4px 4px #EF8354;
 }
 
 .jumbotron h2 {
     font-family: 'PT Sans', 'Gill Sans';
     font-size: 2rem;
     font-weight: 500;
-    color: #fff;
+    color: #fffffe;
 }
 
 .jumbotron .lead {
@@ -216,22 +242,6 @@ body {
 
 /* .....................................About*/
 
-.about-column {
-    text-align: left;
-    font-family: 'PT Sans', 'Gill Sans';
-    background-color: #555C67;
-    padding: 1em;
-    margin-left: 1.5em;
-    margin-right: 1.5em;
-    margin-bottom: 1.5em;
-    overflow: hidden;
-    position: relative;
-}
-
-.about-column h3 {
-    font-size: 2.5rem;
-}
-
 #leftcol {
     float: right;
 }
@@ -248,7 +258,7 @@ body {
     text-transform: uppercase;
     margin: 1rem;
     color: #FFFFFE;
-    -webkit-text-stroke: 1px #C2917C;
+    -webkit-text-stroke: 1px #EF8354;
 }
 
 #about span {
