@@ -49,7 +49,6 @@ body {
     margin: 0;
 }
 
-
 /*.....................................Block dividers */
 
 .hr-main {
@@ -64,12 +63,7 @@ body {
     align-items: center;
 }
 
-
-/* .....................................Buttons */
-
-
-
-/* .....................................Header with navigation bar */
+/* .....................................Containers */
 
 .nav-container {
     position: absolute;
@@ -79,6 +73,48 @@ body {
     padding-right: 0;
     z-index: 1;
 }
+
+.about-container {
+    background: #2D3142;
+}
+
+.trailer-container {
+    background-color: #2B2D34;
+    padding-bottom: 4rem;
+}
+
+.watch-container {
+    background: #2D3142;
+}
+
+.news-container {
+    background-color: #555C67;
+}
+
+/* .....................................Buttons */
+
+.btn-trailer {
+    color: #FFFFFE;
+    background-color: #C2917C;
+    height: 50px;
+    width: 200px;
+    font-size: 2.25rem;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 30px;
+    border: 1px solid #FFFFFE;
+}
+
+.btn-trailer:hover,
+.btn-trailer:active,
+.btn-trailer:focus,
+.btn-trailer:active:focus {
+    background-color: #A6694E;
+    border-color: #A6694E;
+    color: #FFFFFE;
+}
+
+/* .....................................Header with navigation bar */
 
 .navbar {
     text-align: center;
@@ -183,10 +219,6 @@ body {
 
 /* .....................................About*/
 
-.about-container {
-    background: #2D3142;
-}
-
 .about-column {
     text-align: left;
     font-family: 'PT Sans', 'Gill Sans';
@@ -235,24 +267,16 @@ body {
 
  /* .....................................Trailer */
 
-.trailer-container {
-    background-color: #2B2D34;
-    padding-bottom: 4rem;
-}
+
 
 
 /* .....................................Watch */
 
-.watch-container {
-    background: #2D3142;
-}
 
 
 /* .....................................News */
 
-.news-container {
-    background-color: #555C67;
-}
+
 
 
  /* .....................................Media Queries */
