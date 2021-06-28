@@ -130,15 +130,37 @@ body {
     color: #FFFFFE;
 }
 
+.btn-form {
+    color: #FFFFFE;
+    background-color: #EF8354;
+    height: 40px;
+    width: 100px;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 30px;
+    border: 1px solid #FFFFFE;
+}
+
+.btn-form:hover,
+.btn-form:active,
+.btn-form:focus,
+.btn-form:active:focus {
+    background-color: #f35c1b;
+    border-color: #f35c1b;
+    color: #FFFFFE;
+}
+
 /* .....................................Icons */
 
 .two-column i {
     color: #FFFFFE;
+    font-size: 3rem;
 }
 
 .two-column i:hover {
     color: #EF8354;
 }
+
 
 /* .....................................Header with navigation bar */
 
