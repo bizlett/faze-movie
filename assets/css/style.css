@@ -58,8 +58,8 @@ body {
 }
 
 .hr-short {
-    border: 1px solid #C2917C;
-    width: 20%;
+    border: 2px solid #C2917C;
+    width: 3%;
     align-items: center;
 }
 
@@ -126,7 +126,6 @@ body {
 
 .navbar-brand {}
 
-
 .navbar-dark .navbar-toggler {
     border: none;
     padding:1.5rem;
@@ -150,7 +149,6 @@ body {
     color:#C2917C;
     text-decoration: underline;
 }
-
 
 /* .....................................Hero image and jumbotron */
 
@@ -193,7 +191,6 @@ body {
     font-weight: 500;
     color: #fff;
 }
-
 
 .jumbotron .lead {
     margin: 25px, 0;
