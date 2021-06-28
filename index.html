@@ -30,10 +30,13 @@
             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Tickets</a>
+            <a class="nav-link" href="#watch">Watch</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#news">News</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Gallery</a>
@@ -108,12 +111,76 @@
         </div>
       </div>
   </section>
-  <!-- Gallery -->
-  <section>
-    <p>Gallery</p>
+  <!-- Watch -->
+  <section id="watch">
+    <div class="watch-container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="header">watch</h2>
+          <hr class="hr-short">
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center" flex-wrap="none">
+        <div class="col-md-4 col-sm-12 col-xs-12 about-column" id="leftcol">
+          <h3>Tickets</h3>
+          <p>
+            <hr class="hr-main">
+            Limited UK release, only at Picturehouse cinemas.
+            Search for your local theatre and pre-order your tickets now!
+          </p>
+        </div>
+        <div class="col-md-4 col-sm-12 col-xs-12 about-column" id="rightcol">
+          <h3>On-Demand</h3>
+          <p>
+            <hr class="hr-main">
+            Coming soon to:
+          </p>
+        </div>
+      </div>
   </section>
+  <!-- News -->
   <section>
-    <p>News</p>
+    <div class="news-container" id="news">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="header">news</h2>
+          <hr class="hr-short">
+        </div>
+        <div class="row">
+          <div class="col">
+            <!-- Mailing list form -->
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                  else.</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+          <div class="row">
+            <div class="col" id="rightcol">
+              <h3>Follow us:</h3>
+              <p>
+                <hr class="hr-main">
+                Twitter
+                Facebook
+                Instagram
+                YouTube
+                Vimeo
+              </p>
+            </div>
+          </div>
+        </div>
   </section>
   <footer>
     <p>FOOTER Company logos</p>

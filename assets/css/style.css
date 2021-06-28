@@ -241,4 +241,18 @@ body {
 }
 
 
+/* .....................................Watch */
+
+.watch-container {
+    background: #2D3142;
+}
+
+
+/* .....................................News */
+
+.news-container {
+    background-color: #555C67;
+}
+
+
  /* .....................................Media Queries */
