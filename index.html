@@ -88,16 +88,20 @@
           <h3>Creative Team</h3>
           <p>
             <hr class="hr-main">
-            <span>DIRECTED BY</span> Kathryn Bigelow <a href="https://www.imdb.com/name/nm0000941/?ref_=tt_ov_dr">
+            <span>DIRECTED BY</span> Kathryn Bigelow <a href="https://www.imdb.com/name/nm0000941/?ref_=tt_ov_dr"
+            target="_blank">
               <i class="fab fa-imdb imdb-icon"></i></a>
             <br>
-            <span>WRITTEN BY</span> Misha Green <a href="https://www.imdb.com/name/nm3207866/?ref_=fn_al_nm_1">
+            <span>WRITTEN BY</span> Misha Green <a href="https://www.imdb.com/name/nm3207866/?ref_=fn_al_nm_1"
+            target="_blank">
               <i class="fab fa-imdb imdb-icon"></i></a>
             <br>
-            <span>PRODUCED BY</span> Chloé Zhao <a href="https://www.imdb.com/name/nm2125482/">
+            <span>PRODUCED BY</span> Chloé Zhao <a href="https://www.imdb.com/name/nm2125482/"
+            target="_blank">
               <i class="fab fa-imdb imdb-icon"></i></a>
             <br>
-            <span>CAST</span> Sandra Bullock <a href="https://www.imdb.com/name/nm0000113/?ref_=fn_al_nm_1">
+            <span>CAST</span> Sandra Bullock <a href="https://www.imdb.com/name/nm0000113/?ref_=fn_al_nm_1"
+            target="_blank">
               <i class="fab fa-imdb imdb-icon"></i></a>
           </p>
         </div>
@@ -111,7 +115,7 @@
           <hr class="hr-short">
         </div>
         <div class="row justify-content-center">
-          <video src="assets/media/sizzle-reel-music.mp4" width="70%" height="auto" controls muted autoplay></video>
+          <video src="assets/media/sizzle-reel-music.mp4" width="70%" height="auto" id="sizzle-reel" controls muted autoplay></video>
         </div>
       </div>
   </section>
@@ -132,6 +136,12 @@
             Limited UK release, only at Picturehouse cinemas.
             Search for your local theatre and pre-order your tickets now!
           </p>
+          <div class="row zoom mx-auto">
+            <a href="https://www.picturehouses.com/" target="_blank" class="mx-auto">
+            <img src="/assets/images/picturehouse-logo.jpg" alt="picturehouse logo" class="img-fluid" 
+            id="picturehouse-logo">
+          </a>
+          </div>
         </div>
         <div class="col-md-4 col-sm-12 col-xs-12 two-column" id="rightcol">
           <h3>On-Demand</h3>
@@ -143,8 +153,8 @@
       </div>
   </section>
   <!-- News -->
-  <section>
-    <div class="news-container" id="news">
+  <section id="news">
+    <div class="news-container">
       <div class="row">
         <div class="col-md-12">
           <h2 class="header">news</h2>
@@ -159,17 +169,16 @@
             <form>
               <div class="form-group">
                 <i class="fas fa-user"></i>
-                <input type="name" class="form-control" id="name" placeholder="Name"
-                aria-placeholder="name" required>
+                <input type="name" class="form-control" id="name" placeholder="Name" aria-placeholder="name" required>
               </div>
               <div class="form-group">
                 <i class="fas fa-envelope"></i>
                 <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Email address"
                   aria-placeholder="email address" required>
-                </div>
-                <div class="form-text" id="info-safe">
+              </div>
+              <div class="form-text" id="info-safe">
                 <i class="fas fa-lock"></i>
-               Your information is safe with us
+                Your information is safe with us
               </div>
               <button type="submit" class="btn btn-form btn-lg">Submit</button>
             </form>

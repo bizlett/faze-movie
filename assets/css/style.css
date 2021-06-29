@@ -3,7 +3,7 @@
 html {
     scroll-padding-top: 2.5rem;
     font-size: 70%;
-    scroll-behavior:auto;
+    scroll-behavior:smooth;
 }
 
 body {
@@ -85,6 +85,7 @@ body {
     margin-bottom: 1.5em;
     overflow: hidden;
     position: relative;
+    border-radius: 10%;
 }
 
 .two-column h3 {
@@ -128,8 +129,8 @@ body {
 .btn-trailer:active,
 .btn-trailer:focus,
 .btn-trailer:active:focus {
-    background-color: #f35c1b;
-    border-color: #f35c1b;
+    background-color: #f0500c;
+    border-color: #f0500c;
     color: #FFFFFE;
 }
 
@@ -148,8 +149,8 @@ body {
 .btn-form:active,
 .btn-form:focus,
 .btn-form:active:focus {
-    background-color: #f35c1b;
-    border-color: #f35c1b;
+    background-color: #f0500c;
+    border-color: #f0500c;
     color: #FFFFFE;
 }
 
@@ -296,7 +297,7 @@ body {
     text-align: center;
     font-size: 3rem;
     text-transform: uppercase;
-    margin: 1rem;
+    margin: 2rem;
     color: #FFFFFE;
     -webkit-text-stroke: 1px #EF8354;
 }
@@ -314,11 +315,31 @@ body {
 
  /* .....................................Trailer */
 
-
+ #sizzle-reel {
+     border-radius: 10%;
+ }
 
 
 /* .....................................Watch */
 
+#picturehouse-logo {
+    height: 10rem;
+    width: 18rem;
+    border-radius: 10%;
+    margin-top: 1rem;
+
+}
+
+.zoom {
+    background-color:transparent;
+    transition: transform .2s; 
+    height: 12rem;
+    width: 20rem;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
 
 /* .....................................Form */
 
