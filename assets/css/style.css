@@ -3,7 +3,7 @@
 html {
     scroll-padding-top: 2.5rem;
     font-size: 70%;
-    scroll-behavior: smooth;
+    scroll-behavior:auto;
 }
 
 body {
@@ -61,6 +61,7 @@ body {
     border: 2px solid #EF8354;
     width: 3%;
     align-items: center;
+    margin-bottom: 3rem;
 }
 
 /* .....................................Containers */
@@ -75,7 +76,7 @@ body {
 }
 
 .two-column {
-    text-align: left;
+    text-align: justify;
     font-family: 'PT Sans', 'Gill Sans';
     background-color: #555C67;
     padding: 1em;
@@ -88,6 +89,8 @@ body {
 
 .two-column h3 {
     font-size: 2.5rem;
+    color: #FFFFFE;
+    text-align: center;
 }
 
 .about-container {
@@ -356,6 +359,8 @@ body {
 
 #rightcol-news h3 {
     text-align: left;
+    color: #FFFFFE;
+    text-align: center;
 }
 
 #rightcol-news span {
