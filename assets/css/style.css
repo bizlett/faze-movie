@@ -222,7 +222,7 @@ body {
 #hero-image {
     height: 90vh;
 
-    background: url(../images/hero.jpg) no-repeat center fixed;
+    background: url(../images/hero/hero.jpg) no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -287,7 +287,7 @@ body {
     float: right;
 }
 
-#rightcol {
+#rightcol-about {
     line-height: 250%;
     float: left;
 }
@@ -319,15 +319,31 @@ body {
      border-radius: 10%;
  }
 
-
 /* .....................................Watch */
+
+#rightcol-watch {
+    float: left;
+    line-spacing: .5rem;
+    overflow: hidden;
+}
 
 #picturehouse-logo {
     height: 10rem;
     width: 18rem;
     border-radius: 10%;
     margin-top: 1rem;
+}
 
+#watch-logo {
+    height: 8rem;
+    width: 16rem;
+    border-radius: 10%;
+}
+
+#amazon-logo {
+    height: 5rem;
+    width: 14rem;
+    border-radius: 10%;
 }
 
 .zoom {
@@ -338,7 +354,7 @@ body {
   }
   
   .zoom:hover {
-    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(1.1);
   }
 
 /* .....................................Form */
