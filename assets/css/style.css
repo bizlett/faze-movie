@@ -76,7 +76,7 @@ body {
 }
 
 .two-column {
-    text-align: justify;
+    text-align: left;
     font-family: 'PT Sans', 'Gill Sans';
     background-color: #555C67;
     padding: 1em;
@@ -113,24 +113,29 @@ body {
 
 .footer-container {
     background-color: #2b2d34; 
-    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     background-color: #2b2d34;
     height: 100%;
     width: 100%;
     padding: 0;
-    line-height: 5rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #000;
     
     justify-content: center;
     align-content: center;
 }
 
+.footer-logo-container {
+    text-align: center;
+    margin: 1.5rem;
+}
+
 .footer-logo-container li, a {
     display: inline;
     color: #000;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .footer-logo-container a:hover {
@@ -207,21 +212,10 @@ body {
     font-size: 1.5rem;
 }
 
-#footer-logo {
-    height: 3rem;
-    width: 7rem;
+#financier-logos {
+    width: 30%;
+    height: auto;
 }
-
-#universal-logo {
-    height: 4rem;
-    width: 7rem;
-}
-
-#bfi-logo {
-    height: 5.5rem;
-    width: 7rem;
-}
-
 
 /* .....................................Header with navigation bar */
 
@@ -377,15 +371,15 @@ body {
 }
 
 #watch-logo {
+    margin-top: 2rem;
     height: 8rem;
     width: 16rem;
-    border-radius: 10%;
 }
 
 #amazon-logo {
+    margin-top: 4rem;
     height: 5rem;
     width: 14rem;
-    border-radius: 10%;
 }
 
 .zoom {
@@ -396,6 +390,17 @@ body {
   }
   
   .zoom:hover {
+    transform: scale(1.1);
+  }
+
+  .zoom-right {
+    background-color:transparent;
+    transition: transform .2s; 
+    height: 8rem;
+    width: 20rem;
+  }
+
+  .zoom-right:hover {
     transform: scale(1.1);
   }
 
