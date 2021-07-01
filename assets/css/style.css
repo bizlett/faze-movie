@@ -117,9 +117,9 @@ body {
     flex-wrap: wrap;
     background-color: #2b2d34;
     height: 100%;
-    width: 100%;
+    width: auto;
     padding: 0;
-    font-size: 1rem;
+    font-size: 1.25rem;
     color: #000;
     
     justify-content: center;
@@ -451,6 +451,20 @@ body {
     font-size: 3rem;
     font-weight: 600;
 }
+
+/* .....................................Gallery */
+
+#gallery {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+}
+
+#gallery img{
+    width: 100%;
+}
+
 
 
  /* .....................................Media Queries */
