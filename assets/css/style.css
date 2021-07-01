@@ -76,7 +76,7 @@ body {
 }
 
 .two-column {
-    text-align: left;
+    text-align: center;
     font-family: 'PT Sans', 'Gill Sans';
     background-color: #555C67;
     padding: 1em;
@@ -140,6 +140,10 @@ body {
 
 .footer-logo-container a:hover {
     color: #000;
+}
+
+.gallery-container {
+    height: fit-content;
 }
 
 /* .....................................Buttons */
@@ -456,13 +460,18 @@ body {
 
 #gallery {
     clear: both;
-    line-height: 0;
+    line-height: 1rem;
     column-count: 4;
-    column-gap: 0px;
+    column-gap: .25rem;
+    
+    background-color: #2D3142;
+    page-break-inside: avoid;
 }
 
 #gallery img{
     width: 100%;
+    overflow: hidden;
+    margin: .25rem;
 }
 
 
