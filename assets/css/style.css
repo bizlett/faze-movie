@@ -22,14 +22,14 @@ body {
 ::-webkit-scrollbar {
     width: 12px;
 }
- 
+
 ::-webkit-scrollbar-track {
     background: #2b2d34;
 }
- 
+
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(239, 131, 84, 1); 
+    -webkit-box-shadow: inset 0 0 6px rgba(239, 131, 84, 1);
 }
 
 /*..................................................................................Block dividers */
@@ -301,7 +301,7 @@ a {
     margin: 2rem;
     color: #FFFFFE;
     /* -webkit-text-stroke: .1px #EF8354; */
-} 
+}
 
 #about span {
     font-weight: bold;
