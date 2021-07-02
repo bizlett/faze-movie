@@ -260,7 +260,7 @@ a {
 }
 
 .jumbotron h2 {
-    font-family: 'PT Sans', 'Gill Sans';
+    font-family: 'Montserrat', 'PT Sans', 'Gill Sans';
     font-size: 2rem;
     font-weight: 500;
     color: #fffffe;
@@ -272,9 +272,9 @@ a {
 }
 
 .release {
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 600;
-    font-family: 'PT Sans', 'Gill Sans';
+    font-family: 'Montserrat', 'PT Sans', 'Gill Sans';
     padding-top: 20px;
 }
 
