@@ -19,6 +19,19 @@ body {
     width: 100%;
 }
 
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    background: #2b2d34;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(239, 131, 84, 1); 
+}
+
 /*..................................................................................Block dividers */
 
 .hr-main {
@@ -47,7 +60,7 @@ body {
 
 .two-column {
     text-align: justify;
-    font-family: 'PT Sans', 'Gill Sans';
+    font-family: 'Montserrat', 'PT Sans', 'Gill Sans';
     background-color: #555C67;
     padding: 1em;
     margin-left: 1.5em;
