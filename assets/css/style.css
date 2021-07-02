@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Space+Mono:wght@400;700&display=swap');
 
+/*.....................................Body */
+
 html {
     scroll-padding-top: 2.5rem;
     font-size: 70%;
@@ -13,40 +15,6 @@ body {
     margin: 0;
     position: relative;
     font-size: 1.75rem;
-}
-
-/* .....................................Colours */
-
-.bg-color-dark {
-    background-color: #2b2d34;
-    color: #bfbfbf;
-}
-
-/*.....................................Padding, margin, text */
-
-.heading {
-    font-family: 'Space Mono', 'Gill Sans';
-    text-align: center;
-    margin: 1.5rem 0;
-    font-size: 3rem;
-}
-
-.sub-heading {
-    font-family: 'PT Sans', 'Gill Sans';
-    text-align: left;
-    margin: 1.5rem 0;
-    font-size: 2rem;
-}
-
-.text-property{
-    text-align: left;
-    margin-top: 1.5rem;
-}
-
-.paragraph-text {
-    width: 100%;
-    text-align: left;
-    margin: 0;
 }
 
 /*.....................................Block dividers */
@@ -76,7 +44,7 @@ body {
 }
 
 .two-column {
-    text-align: center;
+    text-align: justify;
     font-family: 'PT Sans', 'Gill Sans';
     background-color: #555C67;
     padding: 1em;
@@ -202,26 +170,12 @@ body {
     color: #EF8354;
 }
 
-.form-group i{
-    color: #FFFFFE;
-    font-size: 2rem;
-}
-
-.form-group i:hover {
-    color: #FFFFFE;
-}
-
-#info-safe i{
-    color: #2b2d34;
-    font-size: 1.5rem;
-}
-
 #financier-logos {
     width: 30%;
     height: auto;
 }
 
-/* .....................................Header with navigation bar */
+/* .....................................Navigation bar */
 
 .navbar {
     text-align: center;
@@ -230,8 +184,6 @@ body {
     width: 100%;
     background-color: #2B2D34
 }
-
-.navbar-brand {}
 
 .navbar-dark .navbar-toggler {
     border: none;
@@ -275,8 +227,6 @@ body {
     position: relative;
 }
 
-#hero-container {}
-
 .jumbotron {
     background-color: transparent;
     padding-top: 10rem;
@@ -299,12 +249,12 @@ body {
     color: #fffffe;
 }
 
-.jumbotron .lead {
+.jumbotron {
     margin: 25px, 0;
     color: #fafafa;
 }
 
-.lead {
+.release {
     font-size: 4rem;
     font-weight: 600;
     font-family: 'PT Sans', 'Gill Sans';
@@ -314,12 +264,6 @@ body {
 #hero {
     padding-top: 100px;
 }
-
-#release {}
-
-/* .....................................Nav Bar */
-
-
 
 /* .....................................About*/
 
@@ -363,8 +307,6 @@ body {
 
 #rightcol-watch {
     float: left;
-    line-spacing: .5rem;
-    overflow: hidden;
 }
 
 #picturehouse-logo {
@@ -437,6 +379,20 @@ body {
     color: #2b2d34;
 }
 
+.form-group i {
+    color: #FFFFFE;
+    font-size: 2rem;
+}
+
+.form-group i:hover {
+    color: #FFFFFE;
+}
+
+#info-safe i {
+    color: #2b2d34;
+    font-size: 1.5rem;
+}
+
 /* .....................................News */
 
 #rightcol-news {
@@ -474,6 +430,6 @@ body {
     margin: .25rem;
 }
 
-
-
  /* .....................................Media Queries */
+
+ 
