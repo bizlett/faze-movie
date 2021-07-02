@@ -53,9 +53,9 @@
               <h1 class="jumbotron-header">FAZE</h1>
               <h2>A film by Kathryn Bigelow</h2>
               <p class="release">In cinemas October 2021</p>
-              <a href="#trailer">
-                <button class="btn btn-trailer btn-lg" type="submit">Watch Trailer</button>
-              </a>
+              <button class="btn btn-trailer btn-lg" type="submit" onclick="window.location.href='#trailer'">
+                Watch Trailer
+              </button>
             </section>
           </div>
         </div>
@@ -71,11 +71,11 @@
           <hr class="hr-short">
         </div>
       </div>
-      <div class="row d-flex justify-content-center" flex-wrap="none">
-        <div class="col-md-4 col-sm-12 col-xs-12 two-column" id="leftcol">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-4 col-sm-12 col-xs-12 two-column leftcol">
           <h3>Synopsis</h3>
+          <hr class="hr-main">
           <p>
-            <hr class="hr-main">
             A catastrophic malfunction causes Astro Scientist Julia Tovey's space station to break up and she
             narrowly escapes the wreckage. Alone and floating through the stars in a life pod for one, Julia devises
             a plan to make her way back to Earth and to her family. But when the pod is struck by a freak asteroid
@@ -85,8 +85,8 @@
         </div>
         <div class="col-md-4 col-sm-12 col-xs-12 two-column" id="rightcol-about">
           <h3>Creative Team</h3>
+          <hr class="hr-main">
           <p>
-            <hr class="hr-main">
             <span>DIRECTED BY</span> Kathryn Bigelow <a href="https://www.imdb.com/name/nm0000941/?ref_=tt_ov_dr"
               target="_blank">
               <i class="fab fa-imdb imdb-icon"></i></a>
@@ -103,6 +103,8 @@
               <i class="fab fa-imdb imdb-icon"></i></a>
           </p>
         </div>
+      </div>
+    </div>
   </section>
   <!-- Trailer -->
   <section>
@@ -117,6 +119,7 @@
             autoplay></video>
         </div>
       </div>
+    </div>
   </section>
   <!-- Watch -->
   <section id="watch">
@@ -127,11 +130,11 @@
           <hr class="hr-short">
         </div>
       </div>
-      <div class="row d-flex justify-content-center" flex-wrap="none">
-        <div class="col-md-4 col-sm-12 col-xs-12 two-column" id="leftcol">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-4 col-sm-12 col-xs-12 two-column leftcol">
           <h3>Tickets</h3>
+          <hr class="hr-main">
           <p>
-            <hr class="hr-main">
             Out in cinemas, October 2021. Limited UK release, only at Picturehouse.
             <br>
             <br>
@@ -148,13 +151,13 @@
         </div>
         <div class="col-md-4 col-sm-12 col-xs-12 two-column" id="rightcol-watch">
           <h3>On-Demand</h3>
+          <hr class="hr-main">
           <p>
-            <hr class="hr-main">
             Available to stream from December 2021!
           </p>
           <div class="row zoom-right mx-auto">
             <a href="https://www.netflix.com/gb/" target="_blank" class="mx-auto">
-              <img src="assets/images/watch/netflix-logo.png" alt="netflix logo" class="img-fluid" id="watch-logo">
+              <img src="assets/images/watch/netflix-logo.png" alt="netflix logo" class="img-fluid watch-logo">
             </a>
           </div>
           <div class="row zoom-right mx-auto">
@@ -165,11 +168,12 @@
           </div>
           <div class="row zoom mx-auto">
             <a href="https://mubi.com/" target="_blank" class="mx-auto">
-              <img src="assets/images/watch/mubi-logo.png" alt="mubi logo" class="img-fluid" id="watch-logo">
+              <img src="assets/images/watch/mubi-logo.png" alt="mubi logo" class="img-fluid watch-logo">
             </a>
           </div>
         </div>
       </div>
+    </div>
   </section>
   <!-- News -->
   <section id="news">
@@ -179,8 +183,8 @@
           <h2 class="header">news</h2>
           <hr class="hr-short">
         </div>
-        <div class="row justify-content-center" flex-wrap="none">
-          <div class="col-md-4 col-sm-12 col-xs-12 two-column" id="leftcol">
+        <div class="row justify-content-center">
+          <div class="col-md-4 col-sm-12 col-xs-12 two-column leftcol">
             <!-- Mailing list form -->
             <h3>Sign up</h3>
             <hr class="hr-main">
@@ -188,12 +192,12 @@
             <form>
               <div class="form-group">
                 <i class="fas fa-user"></i>
-                <input type="name" class="form-control" id="name" placeholder="Name" aria-placeholder="name" required>
+                <input type="text" class="form-control" id="name" placeholder="Name" required>
               </div>
               <div class="form-group">
                 <i class="fas fa-envelope"></i>
                 <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Email address"
-                  aria-placeholder="email address" required>
+                  required>
               </div>
               <div class="form-text" id="info-safe">
                 <i class="fas fa-lock"></i>
@@ -204,8 +208,8 @@
           </div>
           <div class="col-md-4 col-sm-12 col-xs-12 two-column" id="rightcol-news">
             <h3>Follow us</h3>
+            <hr class="hr-main">
             <p>
-              <hr class="hr-main">
               <span><a href="http://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></span>
               <br>
               <span><a href="http://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></span>
@@ -219,6 +223,8 @@
             <p><span>#FazeMovie</span></p>
           </div>
         </div>
+      </div>
+    </div>
   </section>
   <footer>
     <div class="row d-flex footer-container">
@@ -240,6 +246,7 @@
           </ul>
         </div>
       </div>
+    </div>
   </footer>
   <!-- Bootstrap JS links-->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"

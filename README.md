@@ -152,6 +152,8 @@ My hero image spreads across 100% width of the site. It was important to me to m
 
 The image I chose was a deliberate choice. I wanted something that wasn't too busy and had a space where text could sit easily over it without getting lost or covering up any important visuals. The eyeline of the woman in the image helps to draw the users eye to the text, and therefore the button to the trailer, encouraging them to click that next. 
 
+I used Bootstrap's button element to create my trailer button and originally set this within an a element However, because a button must not appear as a descendant to an a element, I changed this to use JavaScript onclick property to navigate to the trailer section. I opted for this solution as the least labour intensive route rather than styling an a element to look like a button - though the compromise is that it makes it less accessible to screen readers.
+
 #### Trailer
 As a film, I wanted the trailer to be the main selling point rather than text describing the film. I had originally planned to design the trailer to pop up as modal over the hero image. However, in practice this looked too busy and seemed a missed opportunity to make the rest of the site more dynamic. I opted to create a trailer section instead to give the website more visual impact and energy.
 
@@ -212,6 +214,7 @@ I decided to style the scrollbar at a late stage in response to user feedback. I
 <a></a>
 
 ### **Validator Testing**
+
 
 <a></a>
 

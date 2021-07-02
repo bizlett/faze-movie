@@ -267,7 +267,7 @@ a {
 }
 
 .jumbotron {
-    margin: 25px, 0;
+    margin: 25px 0;
     color: #fafafa;
 }
 
@@ -284,7 +284,7 @@ a {
 
 /* ..................................................................................About*/
 
-#leftcol {
+.leftcol {
     float: right;
 }
 
@@ -330,7 +330,7 @@ body {
     margin-top: 1rem;
 }
 
-#watch-logo {
+.watch-logo {
     margin-top: 2rem;
     height: 8rem;
     width: 16rem;
@@ -450,3 +450,4 @@ body {
     #gallery {
         column-count: 2;
     }
+}
