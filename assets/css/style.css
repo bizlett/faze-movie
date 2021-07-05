@@ -6,6 +6,7 @@ html {
     scroll-padding-top: 2.5rem;
     font-size: 70%;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
