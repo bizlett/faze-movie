@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Space+Mono:wght@400;700&family=Montserrat&family=Tourney&display=swap');
 
 /*..................................................................................Body */
+/* fix whitespace problem without using overflow */
+/* review font family inherits e.g. shouldn't need to state font family each time DRY DRY DRY */
+/* add :root{} - see css variables vid */
 
 html {
-    scroll-padding-top: 2.5rem;
-    font-size: 70%;
+    scroll-padding-top: 5.8rem;
+    font-size: .6rem;
     scroll-behavior: smooth;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 body {
@@ -16,7 +19,7 @@ body {
     margin: 0;
     position: relative;
     font-size: 1.75rem;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     width: 100%;
 }
 
@@ -51,7 +54,7 @@ body {
 /* ..................................................................................Containers */
 
 .nav-container {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     padding-left: 0;
@@ -134,6 +137,8 @@ a {
 
 /* ..................................................................................Buttons */
 
+/* invert trailer btn colors */
+
 .btn-trailer {
     color: #FFFFFE;
     background-color: #EF8354;
@@ -197,13 +202,16 @@ a {
 
 /* ..................................................................................Nav bar */
 
+/* Make navbar sticky */
+
 .navbar {
     text-align: center;
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: #2B2D34
+    background-color: #2B2D34;
 }
+
 
 .navbar-dark .navbar-toggler {
     border: none;
@@ -286,6 +294,8 @@ a {
 }
 
 /* ..................................................................................About*/
+
+/* use start/end instead of left/right */
 
 .leftcol {
     float: right;
