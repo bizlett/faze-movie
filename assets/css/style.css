@@ -7,8 +7,8 @@
 
 html {
     scroll-padding-top: 5.8rem;
-    font-size: .6rem;
     scroll-behavior: smooth;
+    font-size: .6rem;
     margin: 0;
     padding: 0;
 }
@@ -170,7 +170,6 @@ a {
     border-radius: 30px;
     border: 1px solid #FFFFFE;
     margin-top: 2rem;
-    margin-left: 13rem;
 }
 
 .btn-form:hover,
@@ -218,11 +217,6 @@ a {
     padding: 1.5rem;
     float: right;
     margin: 0.5rem;
-}
-
-.navbar-nav {
-    position: sticky;
-    position: -webkit-sticky;
 }
 
 #navbarNavDropdown li a {
@@ -314,9 +308,12 @@ a {
 
 .creative-team {
     list-style-type: none;
-    padding: 1rem;
     margin-top: 0;
     margin-bottom: 1rem;
+}
+
+.creative-team a {
+    width: 100%;
 }
 
 
@@ -441,6 +438,10 @@ body {
     line-height: 250%;
     float: left;
     text-align: center;
+}
+
+#endcol-news ul {
+    list-style-type: none;
 }
 
 #endcol-news h3 {

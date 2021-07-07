@@ -59,7 +59,8 @@
           <h1 class="jumbotron-header">FAZE</h1>
           <h2>A film by Kathryn Bigelow</h2>
           <p class="release">In cinemas October 2021</p>
-          <a class="btn btn-trailer" href="#trailer">
+          <a class="btn btn-trailer" href="#trailer"
+            aria-label="Click to take you to the trailer further down this webpage">
             Watch Trailer
           </a>
         </div>
@@ -91,47 +92,48 @@
         <hr class="hr-main">
         <ul class="creative-team">
           <li>
-            <span>DIRECTED BY</span> Kathryn Bigelow 
-            <a href="https://www.imdb.com/name/nm0000941/?ref_=tt_ov_dr"
-            target="_blank">
-            <i class="fab fa-imdb imdb-icon"></i>
-          </a>
+            <span>DIRECTED BY</span> Kathryn Bigelow
+            <a href="https://www.imdb.com/name/nm0000941/?ref_=tt_ov_dr" aria-label="Click for Kathryn Bigelow's IMDB"
+              target="_blank" rel="noopener">
+              <i class="fab fa-imdb imdb-icon"></i>
+            </a>
           </li>
           <li>
-            <span>WRITTEN BY</span> Misha Green 
-            <a href="https://www.imdb.com/name/nm3207866/?ref_=fn_al_nm_1" target="_blank">
-            <i class="fab fa-imdb imdb-icon"></i>
-          </a>
+            <span>WRITTEN BY</span> Misha Green
+            <a href="https://www.imdb.com/name/nm3207866/?ref_=fn_al_nm_1" aria-label="Click for Misha Green's IMDB"
+              target="_blank" rel="noopener">
+              <i class="fab fa-imdb imdb-icon"></i>
+            </a>
           </li>
           <li>
-            <span>PRODUCED BY</span> Chloé Zhao 
-            <a href="https://www.imdb.com/name/nm2125482/" target="_blank">
-            <i class="fab fa-imdb imdb-icon"></i>
-          </a>
+            <span>PRODUCED BY</span> Chloé Zhao
+            <a href="https://www.imdb.com/name/nm2125482/" aria-label="Click for Chloé Zhao's IMDB" target="_blank"
+              rel="noopener">
+              <i class="fab fa-imdb imdb-icon"></i>
+            </a>
           </li>
-          <li><span>CAST</span> Sandra Bullock 
-            <a href="https://www.imdb.com/name/nm0000113/?ref_=fn_al_nm_1" target="_blank">
-            <i class="fab fa-imdb imdb-icon"></i>
-          </a>
+          <li><span>CAST</span> Sandra Bullock
+            <a href="https://www.imdb.com/name/nm0000113/?ref_=fn_al_nm_1" aria-label="Click for Sandra Bullock's IMDB"
+              target="_blank" rel="noopener">
+              <i class="fab fa-imdb imdb-icon"></i>
+            </a>
           </li>
-          </ul>
+        </ul>
       </div>
     </div>
   </section>
   <!-- Trailer -->
-  <!-- Add col embed class -->
-  <!-- scale video in css -->
   <section class="trailer-container" id="trailer">
-      <div class="row">
-        <div class="col-md-12">
-          <h2 class="header">trailer</h2>
-          <hr class="hr-short">
-        </div>
-        <div class="row justify-content-center">
-          <video src="assets/media/sizzle-reel-music.mp4" width="70%" height="auto" id="sizzle-reel" controls muted
-            autoplay></video>
-        </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="header">trailer</h2>
+        <hr class="hr-short">
       </div>
+      <div class="row justify-content-center">
+        <video src="assets/media/sizzle-reel-music.mp4" width="70%" height="auto" id="sizzle-reel" controls muted
+          autoplay></video>
+      </div>
+    </div>
   </section>
   <!-- Watch -->
   <section id="watch">
@@ -155,7 +157,8 @@
             <br>
           </p>
           <div class="row zoom mx-auto on-demand">
-            <a href="https://www.picturehouses.com/" target="_blank" class="mx-auto">
+            <a href="https://www.picturehouses.com/" aria-label="Link to Picturehouse website" target="_blank"
+              rel="noopener" class="mx-auto">
               <img src="assets/images/watch/picturehouse-logo.jpg" alt="picturehouse logo" class="img-fluid"
                 id="picturehouse-logo">
             </a>
@@ -168,18 +171,20 @@
             Available to stream from December 2021!
           </p>
           <div class="row zoom-right mx-auto">
-            <a href="https://www.netflix.com/gb/" target="_blank" class="mx-auto">
+            <a href="https://www.netflix.com/gb/" aria-label="Link to Netflix website" target="_blank" rel="noopener"
+              class="mx-auto">
               <img src="assets/images/watch/netflix-logo.png" alt="netflix logo" class="img-fluid watch-logo">
             </a>
           </div>
           <div class="row zoom-right mx-auto">
-            <a href="https://www.amazon.co.uk/b/ref=atv_gs_intro-prime_b?_encoding=UTF8&node=3010085031" target="_blank"
-              class="mx-auto">
+            <a href="https://www.amazon.co.uk/b/ref=atv_gs_intro-prime_b?_encoding=UTF8&node=3010085031"
+              aria-label="Link to Amazon Video website" target="_blank" rel="noopener" class="mx-auto">
               <img src="assets/images/watch/amazon-logo.png" alt="amazon logo" class="img-fluid" id="amazon-logo">
             </a>
           </div>
           <div class="row zoom mx-auto">
-            <a href="https://mubi.com/" target="_blank" class="mx-auto">
+            <a href="https://mubi.com/" aria-label="Link to Mubi website" target="_blank" rel="noopener"
+              class="mx-auto">
               <img src="assets/images/watch/mubi-logo.png" alt="mubi logo" class="img-fluid watch-logo">
             </a>
           </div>
@@ -190,47 +195,52 @@
   <!-- gallery -->
   <section class="row" id="gallery">
     <div class="col-md-12">
-        <h2 class="header">gallery</h2>
-        <hr class="hr-short">
+      <h2 class="header">gallery</h2>
+      <hr class="hr-short">
     </div>
     <div class="row" id="stills">
       <div class="col-md-4 col-sm-12">
-        <img src="/assets/images/gallery/bright-still.jpeg" alt="bright light shining in astronaut's eyes" class="img-fluid">
+        <img src="/assets/images/gallery/bright-still.jpeg" alt="bright light shining in astronaut's eyes"
+          class="img-fluid">
       </div>
       <div class="col-md-4 col-sm-12">
         <img src="/assets/images/gallery/inspect-screen.jpg" alt="woman astronaut inspecting screen" class="img-fluid">
       </div>
       <div class="col-md-4 col-sm-12">
         <img src="/assets/images/gallery/looking-down.jpg" alt="woman astronaut looking down" class="img-fluid">
-      </div>  
+      </div>
       <div class="col-md-4 col-sm-12">
         <img src="/assets/images/gallery/face-right.jpeg" alt="woman astronaut facing right" class="img-fluid">
       </div>
       <div class="col-md-4 col-sm-12">
         <img src="/assets/images/gallery/pensive-astronaut.jpg" alt="woman astronaut looking pensive" class="img-fluid">
       </div>
-      <div class="col-md-4 col-sm-12">  
-        <img src="/assets/images/gallery/orange-face.jpeg" alt="woman astronaut face bathed in orange light" class="img-fluid">
-      </div>  
-      <div class="col-md-4 col-sm-12">  
-        <img src="/assets/images/gallery/background-working.jpg" alt="woman astronaut working in the background" class="img-fluid">
+      <div class="col-md-4 col-sm-12">
+        <img src="/assets/images/gallery/orange-face.jpeg" alt="woman astronaut face bathed in orange light"
+          class="img-fluid">
       </div>
-      <div class="col-md-4 col-sm-12">    
-        <img src="/assets/images/gallery/astronaut-concentrating.jpg" alt="woman astronaut concentrating" class="img-fluid">
+      <div class="col-md-4 col-sm-12">
+        <img src="/assets/images/gallery/background-working.jpg" alt="woman astronaut working in the background"
+          class="img-fluid">
       </div>
-      <div class="col-md-4 col-sm-12">  
+      <div class="col-md-4 col-sm-12">
+        <img src="/assets/images/gallery/astronaut-concentrating.jpg" alt="woman astronaut concentrating"
+          class="img-fluid">
+      </div>
+      <div class="col-md-4 col-sm-12">
         <img src="/assets/images/gallery/helmet-off.jpg" alt="woman astronaut taking helmet off" class="img-fluid">
       </div>
-      <div class="col-md-4 col-sm-12">    
+      <div class="col-md-4 col-sm-12">
         <img src="/assets/images/gallery/working-still.jpeg" alt="" class="img-fluid">
       </div>
-      <div class="col-md-4 col-sm-12">    
-        <img src="/assets/images/gallery/astronaut-stare.jpg" alt="woman astronaut staring into light" class="img-fluid">
+      <div class="col-md-4 col-sm-12">
+        <img src="/assets/images/gallery/astronaut-stare.jpg" alt="woman astronaut staring into light"
+          class="img-fluid">
       </div>
-      <div class="col-md-4 col-sm-12">  
+      <div class="col-md-4 col-sm-12">
         <img src="/assets/images/gallery/holding-helmet.jpg" alt="woman astronaut holding helmet" class="img-fluid">
       </div>
-    </div>  
+    </div>
   </section>
   <!-- News -->
   <section id="news">
@@ -260,25 +270,42 @@
                 <i class="fas fa-lock"></i>
                 Your information is safe with us
               </div>
-              <button type="submit" class="btn btn-form btn-lg">Submit</button>
+              <div class="row justify-content-center">
+                <button type="submit" class="btn btn-form btn-lg">Submit</button>
+              </div>
             </form>
           </div>
           <div class="col-md-6 col-sm-12 two-column" id="endcol-news">
             <h3>Follow us</h3>
             <hr class="hr-main">
-            <p>
-              <!-- change this to a list! -->
-              <span><a href="http://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></span>
-              <br>
-              <span><a href="http://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></span>
-              <br>
-              <span><a href="http://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></span>
-              <br>
-              <span><a href="http://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></span>
-              <br>
-              <span><a href="http://vimeo.com" target="_blank"><i class="fab fa-vimeo"></i></a></span>
-            </p>
-            <p><span>#FazeMovie</span></p>
+            <ul>
+              <li>
+                <a href="http://twitter.com" aria-label="Link to Twitter's website" target="_blank" rel="noopener">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="http://facebook.com" aria-label="Link to Facebook's website" target="_blank" rel="noopener">
+                  <i class="fab fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="http://instagram.com" aria-label="Link to Instagram's website" target="_blank" rel="noopener">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="http://youtube.com" aria-label="Link to YouTube's website" target="_blank" rel="noopener">
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </li>
+              <li>
+                <a href="http://vimeo.com" aria-label="Link to Vimeo's website" target="_blank" rel="noopener">
+                  <i class="fab fa-vimeo"></i>
+                </a>
+              </li>
+            </ul>
+            <span>#FazeMovie</span>
           </div>
         </div>
       </div>
@@ -294,13 +321,13 @@
         </div>
         <div class="footer-logo-container">
           <ul>
-            <li><a href="https://erosstx.com/terms-of-use/" target="_blank">Terms of Use</a>
+            <li><a href="https://erosstx.com/terms-of-use/" aria-label="Link to website terms of use" target="_blank" rel="noopener">Terms of Use</a>
             </li>
-            <li><a href="https://erosstx.com/privacy-policy/" target="_blank">Privacy Policy</a>
+            <li><a href="https://erosstx.com/privacy-policy/" aria-label="Link to website privacy policy" target="_blank" rel="noopener">Privacy Policy</a>
             </li>
-            <li><a href="https://www.motionpictures.org/" target="_blank">MPA</a>
+            <li><a href="https://www.motionpictures.org/" aria-label="Link to Motion Pictures Association website" target="_blank" rel="noopener">MPA</a>
             </li>
-            <li><a href="https://www.filmratings.com/" target="_blank">Film Ratings</a>
+            <li><a href="https://www.filmratings.com/" aria-label="Link to Film Ratings website" target="_blank" rel="noopener">Film Ratings</a>
             </li>
           </ul>
         </div>
