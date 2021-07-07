@@ -4,21 +4,18 @@
 <!-- review sizing - should only need col-sm-12 col-md-6 for each container -->
 <!-- review bs links and js links again -->
 <!-- use rem instead of em or % -->
-<!-- add rel="noopener" to all <a> -->
-<!-- ARIA LABELS - USE THEM IN A's!!! -->
+
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-  <!-- Font Awesome link -->
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/3bb591aaf1.js" crossorigin="anonymous"></script>
-
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> -->
+  <!-- CSS sheet -->
   <link rel="stylesheet" href="assets/css/style.css">
   <title>FAZE the Movie</title>
 </head>
@@ -87,7 +84,7 @@
           With time running out, Julia must face her fears or die alone in space.
         </p>
       </div>
-      <div class="col-md-6 col-sm-12 two-column" id="endcol-about">
+      <div class="col-md-6 col-sm-12 two-column">
         <h3>Creative Team</h3>
         <hr class="hr-main">
         <ul class="creative-team">
@@ -130,65 +127,63 @@
         <hr class="hr-short">
       </div>
       <div class="row justify-content-center">
-        <video src="assets/media/sizzle-reel-music.mp4" width="70%" height="auto" id="sizzle-reel" controls muted
-          autoplay></video>
+        <video src="assets/media/sizzle-reel-music.mp4" id="sizzle-reel" controls muted autoplay></video>
       </div>
     </div>
   </section>
   <!-- Watch -->
   <section class="watch-container" id="watch">
-      <div class="row">
-        <div class="col-md-12">
-          <h2 class="header">watch</h2>
-          <hr class="hr-short">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="header">watch</h2>
+        <hr class="hr-short">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-sm-12 two-column">
+        <h3>Tickets</h3>
+        <hr class="hr-main">
+        <p>
+          Out in cinemas, October 2021. Limited UK release, only at Picturehouse.
+          <br>
+          <br>
+          Search for your local theatre and pre-order your tickets now!
+          <br>
+          <br>
+        </p>
+        <div class="row zoom mx-auto">
+          <a href="https://www.picturehouses.com/" aria-label="Link to Picturehouse website" target="_blank"
+            rel="noopener" class="mx-auto">
+            <img src="assets/images/watch/picturehouse-logo.jpg" alt="picturehouse logo" class="img-fluid"
+              id="picturehouse-logo">
+          </a>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-6 col-sm-12 two-column startcol">
-          <h3>Tickets</h3>
-          <hr class="hr-main">
-          <p>
-            Out in cinemas, October 2021. Limited UK release, only at Picturehouse.
-            <br>
-            <br>
-            Search for your local theatre and pre-order your tickets now!
-            <br>
-            <br>
-          </p>
-          <div class="row zoom mx-auto">
-            <a href="https://www.picturehouses.com/" aria-label="Link to Picturehouse website" target="_blank"
-              rel="noopener" class="mx-auto">
-              <img src="assets/images/watch/picturehouse-logo.jpg" alt="picturehouse logo" class="img-fluid"
-                id="picturehouse-logo">
-            </a>
-          </div>
+      <div class="col-md-6 col-sm-12 two-column">
+        <h3>On-Demand</h3>
+        <hr class="hr-main">
+        <p>
+          Available to stream from December 2021!
+        </p>
+        <div class="row zoom-right mx-auto">
+          <a href="https://www.netflix.com/gb/" aria-label="Link to Netflix website" target="_blank" rel="noopener"
+            class="mx-auto">
+            <img src="assets/images/watch/netflix-logo.png" alt="netflix logo" class="img-fluid watch-logo">
+          </a>
         </div>
-        <div class="col-md-6 col-sm-12 two-column" id="endcol-watch">
-          <h3>On-Demand</h3>
-          <hr class="hr-main">
-          <p>
-            Available to stream from December 2021!
-          </p>
-          <div class="row zoom-right mx-auto">
-            <a href="https://www.netflix.com/gb/" aria-label="Link to Netflix website" target="_blank" rel="noopener"
-              class="mx-auto">
-              <img src="assets/images/watch/netflix-logo.png" alt="netflix logo" class="img-fluid watch-logo">
-            </a>
-          </div>
-          <div class="row zoom-right mx-auto">
-            <a href="https://www.amazon.co.uk/b/ref=atv_gs_intro-prime_b?_encoding=UTF8&node=3010085031"
-              aria-label="Link to Amazon Video website" target="_blank" rel="noopener" class="mx-auto">
-              <img src="assets/images/watch/amazon-logo.png" alt="amazon logo" class="img-fluid" id="amazon-logo">
-            </a>
-          </div>
-          <div class="row zoom mx-auto">
-            <a href="https://mubi.com/" aria-label="Link to Mubi website" target="_blank" rel="noopener"
-              class="mx-auto">
-              <img src="assets/images/watch/mubi-logo.png" alt="mubi logo" class="img-fluid watch-logo">
-            </a>
-          </div>
+        <div class="row zoom-right mx-auto">
+          <a href="https://www.amazon.co.uk/b/ref=atv_gs_intro-prime_b?_encoding=UTF8&node=3010085031"
+            aria-label="Link to Amazon Video website" target="_blank" rel="noopener" class="mx-auto">
+            <img src="assets/images/watch/amazon-logo.png" alt="amazon logo" class="img-fluid" id="amazon-logo">
+          </a>
+        </div>
+        <div class="row zoom mx-auto">
+          <a href="https://mubi.com/" aria-label="Link to Mubi website" target="_blank" rel="noopener" class="mx-auto">
+            <img src="assets/images/watch/mubi-logo.png" alt="mubi logo" class="img-fluid watch-logo">
+          </a>
         </div>
       </div>
+    </div>
   </section>
   <!-- gallery -->
   <section class="row" id="gallery">
@@ -232,8 +227,7 @@
         <img src="assets/images/gallery/working-still.jpeg" alt="" class="img-fluid">
       </div>
       <div class="col-md-4 col-sm-12">
-        <img src="assets/images/gallery/astronaut-stare.jpg" alt="woman astronaut staring into light"
-          class="img-fluid">
+        <img src="assets/images/gallery/astronaut-stare.jpg" alt="woman astronaut staring into light" class="img-fluid">
       </div>
       <div class="col-md-4 col-sm-12">
         <img src="assets/images/gallery/holding-helmet.jpg" alt="woman astronaut holding helmet" class="img-fluid">
@@ -242,70 +236,70 @@
   </section>
   <!-- News -->
   <section class="news-container" id="news">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="header">news</h2>
+        <hr class="hr-short">
+      </div>
       <div class="row">
-        <div class="col-md-12">
-          <h2 class="header">news</h2>
-          <hr class="hr-short">
+        <div class="col-md-6 col-sm-12 two-column startcol">
+          <!-- Mailing list form -->
+          <h3>Sign up</h3>
+          <hr class="hr-main">
+          <p> Join our mailing list to keep up to date with the latest news and get exclusive access to deals.</p>
+          <form>
+            <div class="form-group">
+              <i class="fas fa-user"></i>
+              <input type="text" class="form-control" id="name" placeholder="Name" required>
+            </div>
+            <div class="form-group">
+              <i class="fas fa-envelope"></i>
+              <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Email address"
+                required>
+            </div>
+            <div class="form-text" id="info-safe">
+              <i class="fas fa-lock"></i>
+              Your information is safe with us
+            </div>
+            <div class="row justify-content-center">
+              <button type="submit" value="submit" class="btn btn-form btn-lg">Submit</button>
+            </div>
+          </form>
         </div>
-        <div class="row">
-          <div class="col-md-6 col-sm-12 two-column startcol">
-            <!-- Mailing list form -->
-            <h3>Sign up</h3>
-            <hr class="hr-main">
-            <p> Join our mailing list to keep up to date with the latest news and get exclusive access to deals.</p>
-            <form>
-              <div class="form-group">
-                <i class="fas fa-user"></i>
-                <input type="text" class="form-control" id="name" placeholder="Name" required>
-              </div>
-              <div class="form-group">
-                <i class="fas fa-envelope"></i>
-                <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Email address"
-                  required>
-              </div>
-              <div class="form-text" id="info-safe">
-                <i class="fas fa-lock"></i>
-                Your information is safe with us
-              </div>
-              <div class="row justify-content-center">
-                <button type="submit" value="submit" class="btn btn-form btn-lg">Submit</button>
-              </div>
-            </form>
-          </div>
-          <div class="col-md-6 col-sm-12 two-column" id="endcol-news">
-            <h3>Follow us</h3>
-            <hr class="hr-main">
-            <ul>
-              <li>
-                <a href="http://twitter.com" aria-label="Link to Twitter's website" target="_blank" rel="noopener">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li>
-                <a href="http://facebook.com" aria-label="Link to Facebook's website" target="_blank" rel="noopener">
-                  <i class="fab fa-facebook"></i>
-                </a>
-              </li>
-              <li>
-                <a href="http://instagram.com" aria-label="Link to Instagram's website" target="_blank" rel="noopener">
-                  <i class="fab fa-instagram"></i>
-                </a>
-              </li>
-              <li>
-                <a href="http://youtube.com" aria-label="Link to YouTube's website" target="_blank" rel="noopener">
-                  <i class="fab fa-youtube"></i>
-                </a>
-              </li>
-              <li>
-                <a href="http://vimeo.com" aria-label="Link to Vimeo's website" target="_blank" rel="noopener">
-                  <i class="fab fa-vimeo"></i>
-                </a>
-              </li>
-            </ul>
-            <span>#FazeMovie</span>
-          </div>
+        <div class="col-md-6 col-sm-12 two-column" id="endcol-news">
+          <h3>Follow us</h3>
+          <hr class="hr-main">
+          <ul>
+            <li>
+              <a href="http://twitter.com" aria-label="Link to Twitter's website" target="_blank" rel="noopener">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="http://facebook.com" aria-label="Link to Facebook's website" target="_blank" rel="noopener">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="http://instagram.com" aria-label="Link to Instagram's website" target="_blank" rel="noopener">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="http://youtube.com" aria-label="Link to YouTube's website" target="_blank" rel="noopener">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+            <li>
+              <a href="http://vimeo.com" aria-label="Link to Vimeo's website" target="_blank" rel="noopener">
+                <i class="fab fa-vimeo"></i>
+              </a>
+            </li>
+          </ul>
+          <span>#FazeMovie</span>
         </div>
       </div>
+    </div>
   </section>
   <!-- Footer -->
   <footer>
@@ -334,17 +328,11 @@
       </div>
     </div>
   </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+  <!-- JS links -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
   </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
-  </script>
-
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script> -->
 </body>
+
 
 </html>
