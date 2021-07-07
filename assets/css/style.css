@@ -9,6 +9,8 @@ html {
     scroll-padding-top: 5.8rem;
     font-size: .6rem;
     scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
     /* overflow-x: hidden; */
 }
 
@@ -253,8 +255,8 @@ a {
     background-size: cover;
 
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items:flex-end;
+    justify-content:flex-end;
 
     position: relative;
 }
@@ -263,6 +265,8 @@ a {
     background-color: transparent;
     padding-top: 10rem;
     text-align: right;
+    margin: 25px 0;
+    color: #fafafa;
 }
 
 .jumbotron-header {
@@ -279,11 +283,6 @@ a {
     font-size: 2rem;
     font-weight: 500;
     color: #fffffe;
-}
-
-.jumbotron {
-    margin: 25px 0;
-    color: #fafafa;
 }
 
 .release {
