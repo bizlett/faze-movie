@@ -218,6 +218,7 @@ a {
 
 #hero-image {
     height: 90vh;
+    width: 100%;
 
     background: url(../images/hero/hero.jpg) no-repeat center fixed;
     -webkit-background-size: cover;
@@ -419,7 +420,7 @@ body {
     padding: 0;
 }
 
-/* ..................................................................................Gallery */
+/* Gallery */
 
 #gallery {
     background-color: #2b2d34;
@@ -429,6 +430,7 @@ body {
     width: 100%;
     margin: 1rem;
     padding: 0;
+    clear: both;
 }
 
 #stills img {
