@@ -61,9 +61,9 @@
               <h2>A film by Kathryn Bigelow</h2>
               <p class="release">In cinemas October 2021</p>
               <!-- review button - not a submit, doesn't need onclick - make an a and style (bleuuuurgh) -->
-              <button class="btn btn-trailer btn-lg" type="submit" onclick="window.location.href='#trailer'">
+              <a class="btn btn-trailer" href="#trailer">
                 Watch Trailer
-              </button>
+              </a>
             </section>
           </div>
         </div>
@@ -72,7 +72,6 @@
   </header>
   <!-- ABOUT section -->
   <section id="about">
-    <div class="about-container">
       <div class="row">
         <div class="col-md-12">
           <h2 class="header">about</h2>
@@ -80,7 +79,7 @@
         </div>
       </div>
       <div class="row d-flex justify-content-center">
-        <div class="col-md-4 col-sm-12 col-xs-12 two-column leftcol">
+        <div class="col-md-6 col-sm-12 two-column startcol">
           <h3>Synopsis</h3>
           <hr class="hr-main">
           <p>
@@ -91,7 +90,7 @@
             With time running out, Julia must face her fears or die alone in space.
           </p>
         </div>
-        <div class="col-md-4 col-sm-12 col-xs-12 two-column" id="rightcol-about">
+        <div class="col-md-6 col-sm-12 two-column" id="endcol-about">
           <h3>Creative Team</h3>
           <!-- change p here to list! -->
           <!-- get rid of br - bad bad bad -->
@@ -114,7 +113,6 @@
           </p>
         </div>
       </div>
-    </div>
   </section>
   <!-- Trailer -->
   <!-- Add col embed class -->
@@ -143,7 +141,7 @@
         </div>
       </div>
       <div class="row d-flex justify-content-center">
-        <div class="col-md-4 col-sm-12 col-xs-12 two-column leftcol">
+        <div class="col-md-6 col-sm-12 two-column startcol">
           <h3>Tickets</h3>
           <hr class="hr-main">
           <p>
@@ -161,7 +159,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-4 col-sm-12 col-xs-12 two-column" id="rightcol-watch">
+        <div class="col-md-6 col-sm-12 two-column" id="endcol-watch">
           <h3>On-Demand</h3>
           <hr class="hr-main">
           <p>
@@ -229,7 +227,7 @@
           <hr class="hr-short">
         </div>
         <div class="row justify-content-center">
-          <div class="col-md-4 col-sm-12 col-xs-12 two-column leftcol">
+          <div class="col-md-6 col-sm-12 two-column startcol">
             <!-- Mailing list form -->
             <h3>Sign up</h3>
             <hr class="hr-main">
@@ -251,7 +249,7 @@
               <button type="submit" class="btn btn-form btn-lg">Submit</button>
             </form>
           </div>
-          <div class="col-md-4 col-sm-12 col-xs-12 two-column" id="rightcol-news">
+          <div class="col-md-6 col-sm-12 two-column" id="endcol-news">
             <h3>Follow us</h3>
             <hr class="hr-main">
             <p>

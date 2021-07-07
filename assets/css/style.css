@@ -36,6 +36,10 @@ body {
     -webkit-box-shadow: inset 0 0 6px rgba(239, 131, 84, 1);
 }
 
+.container {
+    display: flex;
+}
+
 /*..................................................................................Block dividers */
 
 .hr-main {
@@ -63,14 +67,13 @@ body {
 }
 
 .two-column {
+    flex: 1;
     text-align: justify;
-    font-family: 'Montserrat', 'PT Sans', 'Gill Sans';
     background-color: #555C67;
-    padding: 1em;
-    margin-left: 1.5em;
-    margin-right: 1.5em;
-    margin-bottom: 1.5em;
-    overflow: hidden;
+    padding: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
     position: relative;
     border-radius: 10%;
 }
@@ -83,7 +86,7 @@ body {
 }
 
 .about-container {
-    background: #2D3142;
+    
 }
 
 .trailer-container {
@@ -131,9 +134,9 @@ a {
     color: #000;
 }
 
-.gallery-container {
+/* .gallery-container {
     height: fit-content;
-}
+} */
 
 /* ..................................................................................Buttons */
 
@@ -141,22 +144,23 @@ a {
 
 .btn-trailer {
     color: #FFFFFE;
-    background-color: #EF8354;
+    background-color: #f0500c;
     height: 50px;
     width: 200px;
-    font-size: 1.75rem;
+    font-size: 2rem;
     text-align: center;
     text-transform: uppercase;
     border-radius: 30px;
-    border: 1px solid #FFFFFE;
+    border: 1px solid #f0500c;
+    padding-top: 1rem;
 }
 
 .btn-trailer:hover,
 .btn-trailer:active,
 .btn-trailer:focus,
 .btn-trailer:active:focus {
-    background-color: #f0500c;
-    border-color: #f0500c;
+    background-color: #EF8354;
+    border-color: #FFFFFE;
     color: #FFFFFE;
 }
 
@@ -297,11 +301,15 @@ a {
 
 /* use start/end instead of left/right */
 
-.leftcol {
+#about {
+    background: #2D3142;
+}
+
+.startcol {
     float: right;
 }
 
-#rightcol-about {
+#endcol-about {
     line-height: 250%;
     float: left;
 }
@@ -332,7 +340,7 @@ body {
 
 /* ..................................................................................Watch */
 
-#rightcol-watch {
+#endcol-watch {
     float: left;
 }
 
@@ -379,7 +387,7 @@ body {
 
 /* ..................................................................................Form */
 
-#leftcol form {
+#startcol form {
     line-height: 280%;
     text-align: center;
     font-size: 2rem;
@@ -423,19 +431,19 @@ body {
 
 /* ..................................................................................News */
 
-#rightcol-news {
+#endcol-news {
     line-height: 250%;
     float: left;
     text-align: center;
 }
 
-#rightcol-news h3 {
+#endcol-news h3 {
     text-align: left;
     color: #FFFFFE;
     text-align: center;
 }
 
-#rightcol-news span {
+#endcol-news span {
     font-size: 3rem;
     font-weight: 600;
     margin: 0;
