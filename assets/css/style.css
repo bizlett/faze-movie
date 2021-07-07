@@ -208,14 +208,15 @@ a {
 
 /* ..................................................................................Nav bar */
 
-/* Make navbar sticky */
-
 .navbar {
     text-align: center;
     margin-bottom: 0;
     border: 0;
     width: 100%;
+    height: 6rem;
+    z-index: 1;
     background-color: #2B2D34;
+    position: fixed;
 }
 
 
@@ -224,6 +225,11 @@ a {
     padding: 1.5rem;
     float: right;
     margin: 0.5rem;
+}
+
+.navbar-nav {
+    position:sticky;
+    position:-webkit-sticky;
 }
 
 #navbarNavDropdown li a {
@@ -463,7 +469,7 @@ body {
 
 #gallery img {
     width: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
     margin: 0;
 }
 
