@@ -11,7 +11,6 @@ html {
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
-    /* overflow-x: hidden; */
 }
 
 body {
@@ -21,7 +20,6 @@ body {
     margin: 0;
     position: relative;
     font-size: 1.75rem;
-    /* overflow-x: hidden; */
     width: 100%;
 }
 
@@ -59,20 +57,20 @@ body {
 
 /* ..................................................................................Containers */
 
-.nav-container {
+/* .nav-container {
     position: relative;
     top: 0;
     left: 0;
     padding-left: 0;
     padding-right: 0;
     z-index: 1;
-}
+} */
 
 .two-column {
     flex: 1;
     text-align: justify;
     background-color: #555C67;
-    padding: 5rem;
+    padding: 2rem;
     margin-left: 5rem;
     margin-right: 5rem;
     margin-bottom: 5rem;
@@ -87,9 +85,6 @@ body {
     font-family: 'Montserrat', 'PT Sans', 'Gill Sans';
 }
 
-.about-container {
-    
-}
 
 .trailer-container {
     background-color: #2B2D34;
@@ -126,7 +121,7 @@ body {
 .footer-logo-container li,
 a {
     display: inline;
-    color: #000;
+    color: #495057;
     margin-left: 1rem;
     margin-right: 1rem;
 }
@@ -226,8 +221,8 @@ a {
 }
 
 .navbar-nav {
-    position:sticky;
-    position:-webkit-sticky;
+    position: sticky;
+    position: -webkit-sticky;
 }
 
 #navbarNavDropdown li a {
@@ -259,8 +254,8 @@ a {
     background-size: cover;
 
     display: flex;
-    align-items:flex-end;
-    justify-content:flex-end;
+    align-items: flex-end;
+    justify-content: flex-end;
 
     position: relative;
 }
@@ -316,6 +311,14 @@ a {
     line-height: 250%;
     float: left;
 }
+
+.creative-team {
+    list-style-type: none;
+    padding: 1rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
 
 .header {
     font-family: 'Tourney', 'Space Mono', 'Gill Sans';
@@ -456,7 +459,7 @@ body {
 /* ..................................................................................Gallery */
 
 #gallery {
-    background-color:#2b2d34;
+    background-color: #2b2d34;
 }
 
 #stills {
