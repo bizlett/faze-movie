@@ -75,7 +75,7 @@
         <hr class="hr-short">
       </div>
     </div>
-    <div class="row d-flex justify-content-center">
+    <div class="row d-flex">
       <div class="col-md-6 col-sm-12 two-column startcol">
         <h3>Synopsis</h3>
         <hr class="hr-main">
@@ -136,15 +136,14 @@
     </div>
   </section>
   <!-- Watch -->
-  <section id="watch">
-    <div class="watch-container">
+  <section class="watch-container" id="watch">
       <div class="row">
         <div class="col-md-12">
           <h2 class="header">watch</h2>
           <hr class="hr-short">
         </div>
       </div>
-      <div class="row d-flex justify-content-center">
+      <div class="row">
         <div class="col-md-6 col-sm-12 two-column startcol">
           <h3>Tickets</h3>
           <hr class="hr-main">
@@ -156,7 +155,7 @@
             <br>
             <br>
           </p>
-          <div class="row zoom mx-auto on-demand">
+          <div class="row zoom mx-auto">
             <a href="https://www.picturehouses.com/" aria-label="Link to Picturehouse website" target="_blank"
               rel="noopener" class="mx-auto">
               <img src="assets/images/watch/picturehouse-logo.jpg" alt="picturehouse logo" class="img-fluid"
@@ -190,7 +189,6 @@
           </div>
         </div>
       </div>
-    </div>
   </section>
   <!-- gallery -->
   <section class="row" id="gallery">
@@ -200,57 +198,56 @@
     </div>
     <div class="row" id="stills">
       <div class="col-md-4 col-sm-12">
-        <img src="/assets/images/gallery/bright-still.jpeg" alt="bright light shining in astronaut's eyes"
+        <img src="assets/images/gallery/bright-still.jpeg" alt="bright light shining in astronaut's eyes"
           class="img-fluid">
       </div>
       <div class="col-md-4 col-sm-12">
-        <img src="/assets/images/gallery/inspect-screen.jpg" alt="woman astronaut inspecting screen" class="img-fluid">
+        <img src="assets/images/gallery/inspect-screen.jpg" alt="woman astronaut inspecting screen" class="img-fluid">
       </div>
       <div class="col-md-4 col-sm-12">
-        <img src="/assets/images/gallery/looking-down.jpg" alt="woman astronaut looking down" class="img-fluid">
+        <img src="assets/images/gallery/looking-down.jpg" alt="woman astronaut looking down" class="img-fluid">
       </div>
       <div class="col-md-4 col-sm-12">
-        <img src="/assets/images/gallery/face-right.jpeg" alt="woman astronaut facing right" class="img-fluid">
+        <img src="assets/images/gallery/face-right.jpeg" alt="woman astronaut facing right" class="img-fluid">
       </div>
       <div class="col-md-4 col-sm-12">
-        <img src="/assets/images/gallery/pensive-astronaut.jpg" alt="woman astronaut looking pensive" class="img-fluid">
+        <img src="assets/images/gallery/pensive-astronaut.jpg" alt="woman astronaut looking pensive" class="img-fluid">
       </div>
       <div class="col-md-4 col-sm-12">
-        <img src="/assets/images/gallery/orange-face.jpeg" alt="woman astronaut face bathed in orange light"
+        <img src="assets/images/gallery/orange-face.jpeg" alt="woman astronaut face bathed in orange light"
           class="img-fluid">
       </div>
       <div class="col-md-4 col-sm-12">
-        <img src="/assets/images/gallery/background-working.jpg" alt="woman astronaut working in the background"
+        <img src="assets/images/gallery/background-working.jpg" alt="woman astronaut working in the background"
           class="img-fluid">
       </div>
       <div class="col-md-4 col-sm-12">
-        <img src="/assets/images/gallery/astronaut-concentrating.jpg" alt="woman astronaut concentrating"
+        <img src="assets/images/gallery/astronaut-concentrating.jpg" alt="woman astronaut concentrating"
           class="img-fluid">
       </div>
       <div class="col-md-4 col-sm-12">
-        <img src="/assets/images/gallery/helmet-off.jpg" alt="woman astronaut taking helmet off" class="img-fluid">
+        <img src="assets/images/gallery/helmet-off.jpg" alt="woman astronaut taking helmet off" class="img-fluid">
       </div>
       <div class="col-md-4 col-sm-12">
-        <img src="/assets/images/gallery/working-still.jpeg" alt="" class="img-fluid">
+        <img src="assets/images/gallery/working-still.jpeg" alt="" class="img-fluid">
       </div>
       <div class="col-md-4 col-sm-12">
-        <img src="/assets/images/gallery/astronaut-stare.jpg" alt="woman astronaut staring into light"
+        <img src="assets/images/gallery/astronaut-stare.jpg" alt="woman astronaut staring into light"
           class="img-fluid">
       </div>
       <div class="col-md-4 col-sm-12">
-        <img src="/assets/images/gallery/holding-helmet.jpg" alt="woman astronaut holding helmet" class="img-fluid">
+        <img src="assets/images/gallery/holding-helmet.jpg" alt="woman astronaut holding helmet" class="img-fluid">
       </div>
     </div>
   </section>
   <!-- News -->
-  <section id="news">
-    <div class="news-container">
+  <section class="news-container" id="news">
       <div class="row">
         <div class="col-md-12">
           <h2 class="header">news</h2>
           <hr class="hr-short">
         </div>
-        <div class="row justify-content-center">
+        <div class="row">
           <div class="col-md-6 col-sm-12 two-column startcol">
             <!-- Mailing list form -->
             <h3>Sign up</h3>
@@ -271,7 +268,7 @@
                 Your information is safe with us
               </div>
               <div class="row justify-content-center">
-                <button type="submit" class="btn btn-form btn-lg">Submit</button>
+                <button type="submit" value="submit" class="btn btn-form btn-lg">Submit</button>
               </div>
             </form>
           </div>
@@ -309,7 +306,6 @@
           </div>
         </div>
       </div>
-    </div>
   </section>
   <!-- Footer -->
   <footer>
@@ -321,13 +317,17 @@
         </div>
         <div class="footer-logo-container">
           <ul>
-            <li><a href="https://erosstx.com/terms-of-use/" aria-label="Link to website terms of use" target="_blank" rel="noopener">Terms of Use</a>
+            <li><a href="https://erosstx.com/terms-of-use/" aria-label="Link to website terms of use" target="_blank"
+                rel="noopener">Terms of Use</a>
             </li>
-            <li><a href="https://erosstx.com/privacy-policy/" aria-label="Link to website privacy policy" target="_blank" rel="noopener">Privacy Policy</a>
+            <li><a href="https://erosstx.com/privacy-policy/" aria-label="Link to website privacy policy"
+                target="_blank" rel="noopener">Privacy Policy</a>
             </li>
-            <li><a href="https://www.motionpictures.org/" aria-label="Link to Motion Pictures Association website" target="_blank" rel="noopener">MPA</a>
+            <li><a href="https://www.motionpictures.org/" aria-label="Link to Motion Pictures Association website"
+                target="_blank" rel="noopener">MPA</a>
             </li>
-            <li><a href="https://www.filmratings.com/" aria-label="Link to Film Ratings website" target="_blank" rel="noopener">Film Ratings</a>
+            <li><a href="https://www.filmratings.com/" aria-label="Link to Film Ratings website" target="_blank"
+                rel="noopener">Film Ratings</a>
             </li>
           </ul>
         </div>
