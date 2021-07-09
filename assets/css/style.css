@@ -1,22 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Space+Mono:wght@400;700&family=Montserrat&family=Tourney&display=swap');
 
-/*..................................................................................Body */
-/* fix whitespace problem without using overflow */
+/* Body */
 /* review font family inherits e.g. shouldn't need to state font family each time DRY DRY DRY */
 /* add :root{} - see css variables vid */
 
-* {
+/* * {
     margin: 0;
     padding: 0;
-}
+} */
 
 html {
     scroll-padding-top: 5.8rem;
     scroll-behavior: smooth;
     font-size: .6rem;
     width: 100%;
-    margin: 0;
-    padding: 0;
 }
 
 body {
@@ -24,8 +21,6 @@ body {
     font-weight: 400;
     position: relative;
     font-size: 1.75rem;
-    margin: 0;
-    padding: 0;
 }
 
 ::-webkit-scrollbar {
@@ -57,6 +52,15 @@ body {
 }
 
 /* Containers */
+
+.row {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
 
 .container-fluid {
     width: 100%;
@@ -380,7 +384,7 @@ body {
 
 .form-control {
     display: inline;
-    width: 83%;
+    width: 80%;
     height: calc(1.5em + .75rem + 2px);
     padding: .375rem .75rem;
     font-size: 1.75rem;
@@ -458,11 +462,11 @@ body {
     padding: 0;  
     object-fit: cover;
     column-count: 4;
-    column-gap: 0;
+    column-gap: 1rem;
     -webkit-column-count: 4;
-    -webkit-column-gap: 0;
+    -webkit-column-gap: 1rem;
     -moz-column-count: 4;
-    -moz-column-gap: 0;
+    -moz-column-gap: 1rem;
     }
 
 /* Media Queries */
