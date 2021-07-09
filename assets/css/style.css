@@ -1,13 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Space+Mono:wght@400;700&family=Montserrat&family=Tourney&display=swap');
 
 /* Body */
-/* review font family inherits e.g. shouldn't need to state font family each time DRY DRY DRY */
-/* add :root{} - see css variables vid */
 
-/* * {
-    margin: 0;
-    padding: 0;
-} */
+/* add :root{} - see css variables vid */
+/* center text in watch section */
+/* make .two-col cols less wide? Is that a thing? */
 
 html {
     scroll-padding-top: 5.8rem;
@@ -85,7 +82,6 @@ body {
     font-size: 2.5rem;
     color: #FFFFFE;
     text-align: center;
-    font-family: 'Montserrat', 'PT Sans', 'Gill Sans';
 }
 
 .trailer-container {
@@ -257,8 +253,9 @@ a {
 .jumbotron {
     background-color: transparent;
     padding-top: 10rem;
+    padding-right: 3rem;
     text-align: right;
-    margin: 25px 0;
+    margin: 3rem;
     color: #fafafa;
 }
 
@@ -272,7 +269,6 @@ a {
 }
 
 .jumbotron h2 {
-    font-family: 'Montserrat', 'PT Sans', 'Gill Sans';
     font-size: 2rem;
     font-weight: 500;
     color: #fffffe;
@@ -281,7 +277,6 @@ a {
 .release {
     font-size: 3.5rem;
     font-weight: 600;
-    font-family: 'Montserrat', 'PT Sans', 'Gill Sans';
     padding-top: 20px;
 }
 
