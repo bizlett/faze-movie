@@ -402,6 +402,11 @@ body {
 
 #endcol-news ul {
     list-style-type: none;
+    display: inline;
+}
+
+#endcol-news ul li {
+    display: inline;
 }
 
 #endcol-news h3 {
