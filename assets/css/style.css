@@ -2,14 +2,10 @@
 
 /* Body */
 
-/* add :root{} - see css variables vid */
-/* center text in watch section */
-/* make .two-col cols less wide? Is that a thing? */
-
 html {
     scroll-padding-top: 5.8rem;
     scroll-behavior: smooth;
-    font-size: .6rem;
+    font-size: .65rem;
     width: 100%;
 }
 
