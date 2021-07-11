@@ -35,7 +35,7 @@ body {
 
 /* Block dividers */
 
-.hr-main {
+.hr-heading {
     border: 1px solid #EF8354;
     width: 100%;
     margin: 2rem 0;
@@ -44,7 +44,7 @@ body {
 .hr-short {
     border: 2px solid #EF8354;
     width: 3%;
-    align-items: center;
+    align-content: center;
     margin-bottom: 3rem;
 }
 
@@ -55,7 +55,6 @@ body {
     --bs-gutter-y: 0;
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
     justify-content: center;
 }
 
@@ -333,6 +332,7 @@ body {
 
 #picturehouse-logo {
     border-radius: 10%;
+    margin-top: 3rem;
 }
 
 .zoom {
