@@ -96,33 +96,49 @@ body {
 
 .footer-container {
     background-color: #1f2125;
-    flex-direction: column;
-    flex-wrap: wrap;
     height: 100%;
     width: auto;
     padding: 0;
     font-size: 1.25rem;
     color: #000;
+}
 
-    justify-content: space-around;
-    align-content: center;
+.financier-logo-container {
+    text-align: center;
+    margin: 1.5rem;
+    display: inline;
+    margin-bottom: 0;
+}
+
+.financier-logo {
+    height: auto;
+    width: 8rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
 
 .footer-logo-container {
     text-align: center;
-    margin: 1.5rem;
+    margin: 2rem;
+    color: #000;
 }
 
-.footer-logo-container li,
-a {
+.footer-logo-container ul {
+    list-style-type: none;
+}
+
+.footer-logo-container li {
     display: inline;
-    color: #495057;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.footer-logo-container a {
+    color: #000;
 }
 
 .footer-logo-container a:hover {
-    color: #000;
+    color: #495057;
 }
 
 /* Buttons */
