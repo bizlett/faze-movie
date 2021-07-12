@@ -491,3 +491,9 @@ body {
         column-count: 1;
     }
 }
+
+@media (max-width: 400px) {
+    #director-note {
+        display: none;
+    }
+}
