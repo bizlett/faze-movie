@@ -70,7 +70,7 @@ body {
     margin-right: 5rem;
     margin-bottom: 5rem;
     position: relative;
-    border-radius: 10%;
+    border-radius: 2rem;
 }
 
 .two-column h3 {
@@ -146,14 +146,14 @@ body {
 .btn-trailer {
     color: #FFFFFE;
     background-color: #f0500c;
-    height: 50px;
-    width: 200px;
+    height: 4.5rem;
+    width: 20rem;
     font-size: 2rem;
     text-align: center;
     text-transform: uppercase;
-    border-radius: 30px;
+    border-radius: 2.5rem;
     border: 1px solid #f0500c;
-    padding-top: 1rem;
+    padding-top: .5rem;
 }
 
 .btn-trailer:hover,
@@ -168,11 +168,11 @@ body {
 .btn-form {
     color: #FFFFFE;
     background-color: #EF8354;
-    height: 40px;
-    width: 100px;
+    height: 4rem;
+    width: 8rem;
     font-size: 1.5rem;
     text-align: center;
-    border-radius: 30px;
+    border-radius: 2rem;
     border: 1px solid #FFFFFE;
     margin-top: 2rem;
 }
@@ -273,7 +273,7 @@ body {
 .jumbotron-header {
     color: #f0f0f0;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-bottom: 2rem;
     font-family: 'Space Mono', 'Gill Sans';
     font-size: 10rem;
     text-shadow: 4px 4px #EF8354;
@@ -288,11 +288,11 @@ body {
 .release {
     font-size: 3.5rem;
     font-weight: 600;
-    padding-top: 20px;
+    padding-top: 1.25rem;
 }
 
 #hero {
-    padding-top: 100px;
+    padding-top: 6.25rem;
 }
 
 /* About*/
@@ -335,7 +335,7 @@ body {
 /* Trailer */
 
 #sizzle-reel {
-    border-radius: 5%;
+    border-radius: 2rem;
     width: 90%;
     height: auto;
 }
@@ -419,6 +419,10 @@ body {
 
 #endcol-news ul li {
     display: inline;
+}
+
+#endcol-news a {
+    color: #555C67;
 }
 
 #endcol-news h3 {
