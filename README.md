@@ -87,11 +87,8 @@ My icons have been sourced from [Font Awesome](https://fontawesome.com/). I sele
 
 #### *Logos*
 All of my logos are images which I have then styled with CSS. Most of my logos were sourced via Google search, I tried to source logos with transparent backgrounds for aesthetic reasons. I also used [CleanPNG](https://www.cleanpng.com/) and [PNGHut](https://pnghut.com/) for a couple of the logos, specifically to find high quality images with transparent backgrounds.
-
-The financier logos in the footer of my website is a single image. I used [Fotor](https://www.fotor.com/) to stitch together the four logo images. 
         
 #### *Colours*
-
 I used [Coolors](https://coolors.co/) to put together a palette for my website. I used my hero image as the starting point, using a colour picker to draw out blues and oranges initially. 
 
 I decided that blues were a little overwhelming, losing that sense of being in space that I wanted to tap into with the colours of the wesbite. I established a slightly more muted palette for the general theme, leaning more towards greys with blue hints instead. I chose with a bright mandarin orange to accent, creating a pop of life. 
@@ -106,7 +103,9 @@ I have used [Bootstrap v4.6](https://getbootstrap.com/) to create the overall st
 
 Still images on the website were sourced from [Pexels](https://www.pexels.com/). I specifically chose landscape photos for the gallery and hero image for continuity in design as my gallery is displayed on a page instead of using a carousel or similar.
 
-I cut my trailer together using (Microsoft Photos app)[https://www.microsoft.com/en-gb/windows/photo-movie-editor]. The royalty free, stock music was provided through the editing app. The stock footage in the trailer was sourced from [Pexels](https://www.pexels.com/).
+I cut my trailer together using [Microsoft Photos app](https://www.microsoft.com/en-gb/windows/photo-movie-editor). The royalty free, stock music was provided through the editing app. The stock footage in the trailer was sourced from [Pexels](https://www.pexels.com/).
+
+All my images and the trailer have a border radius applied to give them a futuristic feel.
 
 [Back to Top](#table-of-contents)
 
@@ -147,12 +146,12 @@ I used Bootstrap to create my navbar and then styled according to the design I w
 
 I originally planned to make my nav bar transparent, but the nav links over the image were distracting and got a little lost. I decided instead to give the nav bar a solid colour.
 
+I opted to fix the navbar to the top so users can easily navigate the site from whichever section they are in. This negates the need to put in 'back to top' links which could break user experience. 
+
 #### Hero Image
 My hero image spreads across 100% width of the site. It was important to me to make my image a focal point of the website to convey a sense of the cinematic. I made a decision to put a link to the trailer via a button on the image rather than via the navbar. This is because when the user first lands on the page, the image is the first thing they see. Based on my user stories, the next likely step is for the user to want to know what the film is about and when it's out.
 
 The image I chose was a deliberate choice. I wanted something that wasn't too busy and had a space where text could sit easily over it without getting lost or covering up any important visuals. The eyeline of the woman in the image helps to draw the users eye to the text, and therefore the button to the trailer, encouraging them to click that next. 
-
-I used Bootstrap's button element to create my trailer button and originally set this within an a element However, because a button must not appear as a descendant to an a element, I changed this to use JavaScript onclick property to navigate to the trailer section. I opted for this solution as the least labour intensive route rather than styling an a element to look like a button - though the compromise is that it makes it less accessible to screen readers.
 
 #### Trailer
 As a film, I wanted the trailer to be the main selling point rather than text describing the film. I had originally planned to design the trailer to pop up as modal over the hero image. However, in practice this looked too busy and seemed a missed opportunity to make the rest of the site more dynamic. I opted to create a trailer section instead to give the website more visual impact and energy.
@@ -160,7 +159,7 @@ As a film, I wanted the trailer to be the main selling point rather than text de
 I didn't want to link to a random film trailer, so opted to create one myself using stock footage from the same series as the hero and gallery images. The trailer is deliberately set after the about section to give the user a peek at what else there is to explore on the site.
 
 #### About
-I was keen to keep the website as light as possible on text, so wrote a short synopsis for the fictional film. The second column was even lighter on text so I used the line-spacing property to balance out the content more evenly.
+I was keen to keep the website as light as possible on text, so wrote a short synopsis for the fictional film. The second column was even lighter on text so I used a list element for each line and corresponding imdb icon to fill the space in an even manner.
 
 The .two-column class I used for the about section was used again in the watch and news sections. I used the class in conjunction with an id to style accordingly in line with the content of the sections and positionining I wished to achieve. 
 
@@ -174,16 +173,12 @@ This section wasn't originally planned as part of my wireframes. I decided to cr
 In my wireframes, the news section originally covered off that tickets were due to be announced. However, in this version of the website I opted to link through to Picturehouse as the exhibitor for a UK release of this fictional film. I also created a second column for watching on demand. This meant I was able to incorporate some animation elements with a zoom overlay over the logos, linking to SVOD platforms. 
 
 #### News
-The news section was originally planned and is represented in the wireframes, but like other sections of the website, was overhauled. With the additional trailer section and watch section, I had a new structure to work with. In terms of UI, I had more sections with more interactive elements and a nice balance in terms of the static images. I decided I wanted to mirror the .two-column aesthetic in the final section as well, and include more social links.
-
-Aligning this section with the rest of the website proved problematic.
+The news section was originally planned and is represented in the wireframes, but like other sections of the website, was overhauled. With the additional trailer section and watch section, I had a new structure to work with. In terms of UI, I had more sections with more interactive elements and a nice balance in terms of the static images. I decided I wanted to mirror the .two-column structure in the final section as well, and include more social links.
 
 #### Gallery
-My gallery was originally planned to be a section on the same webpage as everything else. However, with the trailer section now included and providing a visual mid point between sections it felt like bad UI to crowd the page further with a gallery. 
+My gallery was originally planned to be different size images displayed closely together with no gap. However, this didn't fit with the overall design and artistic vision I had in mind for the website. I opted instead to style the images as a grid with small column gap. I applied a border radius to give a futuristic feel - sort of like you're looking through the windows of a space shuttle.
 
-I briefly explored the idea of incoporating a carousel for the gallery images, but again this affected the visual balance of the website, impacting the minimalist approach I wanted. I opted to create a new page dedicated only to a gallery of stills from the fictional movie. 
-
-I created a media query for the gallery to drop the number of columns from 4 to 2 on mobile.
+I created several media queries for the gallery to drop the number of columns from 4 to 1 on different viewports.
 
 #### Footer
 My footer contains deliberately discreet financier logos (no links are purposeful) and links to terms of use, a privacy policy and industry regulators.
@@ -195,6 +190,26 @@ I decided to style the scrollbar at a late stage in response to user feedback. I
 
 ### **Future Features**
 
+User responses from testing have been very useful when thinking about future designs:
+
+*"I signed up to the newsletter but got no confirmation to say it worked"*
+
+In a future version, I would add custom error messages and confirmation that information has been submitted. 
+
+*"Clicking on the photo didn't open it or give it the option to zooom in"*
+
+In a future version, I would add an image modal to give functionality for images to be opened.
+
+*"I was kind of expecting the Watch links would link to the film's page..."*
+
+If this was a real film, once the film was released these images would link to the appropriate page on the streamer website. To manage this expectation, in a future version I would disable the links and edit the text to note that the film will be released on these platforms from December 2021.
+
+Other features which could be added:
+
+* Reviews section
+* Blog page featuring content as part of the release plans. This would have a comments section for fans of the film and potential audiences to comment
+* Mini-game page - an interactive viral campaign which allows the user to make choices for the character about what to do next. Based on challenges the protogonist faces in the film to enable a user to experience the world firsthand
+
 [Back to Top](#table-of-contents)
 
 ---
@@ -202,6 +217,24 @@ I decided to style the scrollbar at a late stage in response to user feedback. I
 <a name="technologies"></a>
 
 ## **Technologies**
+
+### **Languages**
+* [HTML]()
+* [CSS]()
+* [JavaScript]()
+
+### **Libraries & Frameworks
+* [Font Awesome]()
+* [Bootstrap]()
+* [Google Fonts]()
+
+### **Tools**
+* [Github]()
+* [Gitpod]()
+* [Balsamiq]()
+* [W3C HTML Validation Service]()
+* [W3C CSS Validation Service]()
+* [Tiny PNG]()
 
 [Back to Top](#table-of-contents)
 
