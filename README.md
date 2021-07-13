@@ -31,6 +31,7 @@ Thank you for visiting my project! If you have any feedback or questions, head o
     * [Future Features](#future-features)
 4. [Technologies](#technologies)
 5. [Testing](#testing)
+    * [Approach and Tools](#approach-tools)
     * [Validator Testing](#validator-testing)
     * [Known Bugs](#known-bugs)
 6. [Deployment](#deployment)
@@ -276,6 +277,16 @@ Other features which could be added:
 <a name="testing"></a>
 
 ## **Testing**
+
+<a></a>
+
+### **Approach and Tools**
+
+I deployed my website during my midpoint meeting with mentor Simen Dahlin which meant I was able to test as I go. I also used Chrome dev tools to test after each change to ensure expectations met reality / intended application.
+
+Once I had the structure in place, I began testing across other devices. I checked features and formatting across an iPhone 7 and iPhone 10 as well as using dev tools and resizing the browser to check responsiveness. I also used a [free responsive test tool](http://responsivetesttool.com/). 
+
+Finally, I asked friends and family to test the website on their devices. I asked them to make a note of anything they found unusual or that they thought was wrong. This proved particularly helpful for user stories and when considering future features.
 
 <a></a>
 
