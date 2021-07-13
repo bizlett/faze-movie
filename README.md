@@ -91,9 +91,12 @@ All of my logos are images which I have then styled with CSS. Most of my logos w
 #### *Colours*
 I used [Coolors](https://coolors.co/) to put together a palette for my website. I used my hero image as the starting point, using a colour picker to draw out blues and oranges initially. 
 
-I decided that blues were a little overwhelming, losing that sense of being in space that I wanted to tap into with the colours of the wesbite. I established a slightly more muted palette for the general theme, leaning more towards greys with blue hints instead. I chose with a bright mandarin orange to accent, creating a pop of life. 
+<img src="/assets/images/readme/coolors-palette.png" alt="coolors palette for Faze website">
 
-[Coolors palette]()
+I decided that blues were a little overwhelming, losing that sense of being in space that I wanted to tap into with the colours of the wesbite. I established a slightly more muted palette for the general theme, leaning more towards greys with blue hints instead incorporating the two palettes together. I kept the bright mandarin orange to accent, creating a pop of life. 
+
+<img src="/assets/images/readme/coolors-colourblind.png" alt="coolors palette for Faze website">
+
 
 #### *Structure*
 
