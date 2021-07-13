@@ -91,16 +91,16 @@ All of my logos are images which I have then styled with CSS. Most of my logos w
 #### *Colours*
 I used [Coolors](https://coolors.co/) to put together a palette for my website. I used my hero image as the starting point, using a colour picker to draw out blues and oranges initially. 
 
-<img src="/assets/images/readme/coolors-palette.png" alt="coolors palette for Faze website">
+<img src="../assets/images/readme/coolors-palette.png" alt="coolors palette for Faze website">
 
 I decided that blues were a little overwhelming, losing that sense of being in space that I wanted to tap into with the colours of the wesbite. I established a slightly more muted palette for the general theme, leaning more towards greys with blue hints instead incorporating the two palettes together. I kept the bright mandarin orange to accent, creating a pop of life. 
 
-<img src="/assets/images/readme/coolors-colourblind.png" alt="coolors palette for Faze website">
+<img src="../assets/images/readme/coolors-colourblind.png" alt="coolors palette for Faze website">
 
 
 #### *Structure*
 
-I have used [Bootstrap v4.6](https://getbootstrap.com/) to create the overall structure of my website.
+I have used [Bootstrap v5.0.2](https://getbootstrap.com/) to create the overall structure of my website.
 
 #### *Imagery*
 
@@ -122,15 +122,15 @@ I used [Balsamiq](https://balsamiq.com/wireframes/) to create wireframes for my 
 
 <a></a>
 
-[Desktop wireframe]()
+[Desktop wireframe](../assets/wireframes/desktop.png/)
 
 <a></a>
 
-[Tablet wireframe]()
+[Tablet wireframe](../assets/wireframes/tablet.png/)
 
 <a></a>
 
-[Mobile wireframe]()
+[Mobile wireframe](../assets/wireframes/mobile.png/)
 
 [Back to Top](#table-of-contents)
 
@@ -145,6 +145,9 @@ I used [Balsamiq](https://balsamiq.com/wireframes/) to create wireframes for my 
 ### **Existing Features**
 
 #### Navigation
+
+<img src="../assets/readme/nav.png/" alt="screenshot of nav bar">
+
 I used Bootstrap to create my navbar and then styled according to the design I wished to create and in keeping with my Coolors palette. The navbar is responsive with a collapsible menu, accessed via a burger icon.
 
 I originally planned to make my nav bar transparent, but the nav links over the image were distracting and got a little lost. I decided instead to give the nav bar a solid colour.
@@ -152,16 +155,27 @@ I originally planned to make my nav bar transparent, but the nav links over the 
 I opted to fix the navbar to the top so users can easily navigate the site from whichever section they are in. This negates the need to put in 'back to top' links which could break user experience. 
 
 #### Hero Image
+
+<img src="../assets/readme/hero.png/" alt="screenshot of hero">
+
 My hero image spreads across 100% width of the site. It was important to me to make my image a focal point of the website to convey a sense of the cinematic. I made a decision to put a link to the trailer via a button on the image rather than via the navbar. This is because when the user first lands on the page, the image is the first thing they see. Based on my user stories, the next likely step is for the user to want to know what the film is about and when it's out.
 
 The image I chose was a deliberate choice. I wanted something that wasn't too busy and had a space where text could sit easily over it without getting lost or covering up any important visuals. The eyeline of the woman in the image helps to draw the users eye to the text, and therefore the button to the trailer, encouraging them to click that next. 
 
 #### Trailer
+
+<img src="../assets/readme/trailer.png/" alt="screenshot of trailer section">
+
 As a film, I wanted the trailer to be the main selling point rather than text describing the film. I had originally planned to design the trailer to pop up as modal over the hero image. However, in practice this looked too busy and seemed a missed opportunity to make the rest of the site more dynamic. I opted to create a trailer section instead to give the website more visual impact and energy.
 
-I didn't want to link to a random film trailer, so opted to create one myself using stock footage from the same series as the hero and gallery images. The trailer is deliberately set after the about section to give the user a peek at what else there is to explore on the site.
+I didn't want to link to a random film trailer, so opted to create one myself using stock footage from the same series as the hero and gallery images. The trailer is deliberately set after the about section to give the user a peek at what else there is to explore on the site. I set the trailer to autoplay on mute and added user controls. I made sure the border radius did not impair the users ability to access the controls.
+
+<img src="../assets/readme/trailer-controls.png/" alt="screenshot of trailer controls">
 
 #### About
+
+<img src="../assets/readme/about.png/" alt="screenshot of about section">
+
 I was keen to keep the website as light as possible on text, so wrote a short synopsis for the fictional film. The second column was even lighter on text so I used a list element for each line and corresponding imdb icon to fill the space in an even manner.
 
 The .two-column class I used for the about section was used again in the watch and news sections. I used the class in conjunction with an id to style accordingly in line with the content of the sections and positionining I wished to achieve. 
@@ -171,22 +185,37 @@ I later decided to use border-radius to round the corners of the containers to g
 The imdb icons were also a later addition. I included these in response to research around user stories. 
 
 #### Watch
+
+<img src="../assets/readme/watch.png/" alt="screenshot of watch section">
+
 This section wasn't originally planned as part of my wireframes. I decided to create it having reviewed the structure of my website and planned content, and decided it was too minimalist. 
 
 In my wireframes, the news section originally covered off that tickets were due to be announced. However, in this version of the website I opted to link through to Picturehouse as the exhibitor for a UK release of this fictional film. I also created a second column for watching on demand. This meant I was able to incorporate some animation elements with a zoom overlay over the logos, linking to SVOD platforms. 
 
 #### News
+
+<img src="../assets/readme/news.png/" alt="screenshot of news section">
+
 The news section was originally planned and is represented in the wireframes, but like other sections of the website, was overhauled. With the additional trailer section and watch section, I had a new structure to work with. In terms of UI, I had more sections with more interactive elements and a nice balance in terms of the static images. I decided I wanted to mirror the .two-column structure in the final section as well, and include more social links.
 
 #### Gallery
+
+<img src="../assets/readme/gallery.png/" alt="screenshot of gallery section">
+
 My gallery was originally planned to be different size images displayed closely together with no gap. However, this didn't fit with the overall design and artistic vision I had in mind for the website. I opted instead to style the images as a grid with small column gap. I applied a border radius to give a futuristic feel - sort of like you're looking through the windows of a space shuttle.
 
 I created several media queries for the gallery to drop the number of columns from 4 to 1 on different viewports.
 
 #### Footer
+
+SCREENSHOT TO BE ADDED
+
 My footer contains deliberately discreet financier logos (no links are purposeful) and links to terms of use, a privacy policy and industry regulators.
 
 #### Scrollbar
+
+<img src="../assets/readme/scroll-bar.png/" alt="screenshot of custom scroll bar">
+
 I decided to style the scrollbar at a late stage in response to user feedback. I used -webkit- extensions to style it in order to cover as many different browsers in one go. I styled the scrollbar in line with my Coolors palette. 
 
 <a></a>
@@ -222,22 +251,23 @@ Other features which could be added:
 ## **Technologies**
 
 ### **Languages**
-* [HTML]()
-* [CSS]()
-* [JavaScript]()
+* [HTML](https://en.wikipedia.org/wiki/HTML)
+* [CSS](https://en.wikipedia.org/wiki/CSS)
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 ### **Libraries & Frameworks
-* [Font Awesome]()
-* [Bootstrap]()
-* [Google Fonts]()
+* [Font Awesome](https://fontawesome.com/)
+* [Bootstrap](https://getbootstrap.com/)
+* [Google Fonts](https://fonts.google.com/)
+* [PNG Hut](https://pnghut.com/)
 
 ### **Tools**
-* [Github]()
-* [Gitpod]()
-* [Balsamiq]()
-* [W3C HTML Validation Service]()
-* [W3C CSS Validation Service]()
-* [Tiny PNG]()
+* [Github](https://github.com/)
+* [Gitpod](https://gitpod.io/workspaces)
+* [Balsamiq](https://balsamiq.com/)
+* [W3C HTML Validation Service](https://validator.w3.org/)
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+* [Tiny PNG](https://tinypng.com/)
 
 [Back to Top](#table-of-contents)
 
