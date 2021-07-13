@@ -22,14 +22,14 @@ Thank you for visiting my project! If you have any feedback or questions, head o
         * [Fonts](#fonts)
         * [Icons](#icons)
         * [Logos](#logos)
-        * [Colors](#colors)
+        * [Colours](#colours)
         * [Structure](#structure)
         * [Imagery](#imagery)
 2. [Wireframes](#wireframes)
 3. [Roadmap](#roadmap)
     * [Existing Features](#existing-features)
     * [Future Features](#future-features)
-4. [Technologies](#technolgies)
+4. [Technologies](#technologies)
 5. [Testing](#testing)
     * [Validator Testing](#validator-testing)
     * [Known Bugs](#known-bugs)
@@ -162,16 +162,6 @@ My hero image spreads across 100% width of the site. It was important to me to m
 
 The image I chose was a deliberate choice. I wanted something that wasn't too busy and had a space where text could sit easily over it without getting lost or covering up any important visuals. The eyeline of the woman in the image helps to draw the users eye to the text, and therefore the button to the trailer, encouraging them to click that next. 
 
-#### Trailer
-
-<img src="../assets/readme/trailer.png/" alt="screenshot of trailer section">
-
-As a film, I wanted the trailer to be the main selling point rather than text describing the film. I had originally planned to design the trailer to pop up as modal over the hero image. However, in practice this looked too busy and seemed a missed opportunity to make the rest of the site more dynamic. I opted to create a trailer section instead to give the website more visual impact and energy.
-
-I didn't want to link to a random film trailer, so opted to create one myself using stock footage from the same series as the hero and gallery images. The trailer is deliberately set after the about section to give the user a peek at what else there is to explore on the site. I set the trailer to autoplay on mute and added user controls. I made sure the border radius did not impair the users ability to access the controls.
-
-<img src="../assets/readme/trailer-controls.png/" alt="screenshot of trailer controls">
-
 #### About
 
 <img src="../assets/readme/about.png/" alt="screenshot of about section">
@@ -183,6 +173,16 @@ The .two-column class I used for the about section was used again in the watch a
 I later decided to use border-radius to round the corners of the containers to give it a more futuristic feel. 
 
 The imdb icons were also a later addition. I included these in response to research around user stories. 
+
+#### Trailer
+
+<img src="../assets/readme/trailer.png/" alt="screenshot of trailer section">
+
+As a film, I wanted the trailer to be the main selling point rather than text describing the film. I had originally planned to design the trailer to pop up as modal over the hero image. However, in practice this looked too busy and seemed a missed opportunity to make the rest of the site more dynamic. I opted to create a trailer section instead to give the website more visual impact and energy.
+
+I didn't want to link to a random film trailer, so opted to create one myself using stock footage from the same series as the hero and gallery images. The trailer is deliberately set after the about section to give the user a peek at what else there is to explore on the site. I set the trailer to autoplay on mute and added user controls. I made sure the border radius did not impair the users ability to access the controls.
+
+<img src="../assets/readme/trailer-controls.png/" alt="screenshot of trailer controls">
 
 #### Watch
 
@@ -255,7 +255,7 @@ Other features which could be added:
 * [CSS](https://en.wikipedia.org/wiki/CSS)
 * [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
-### **Libraries & Frameworks
+### **Libraries & Frameworks**
 * [Font Awesome](https://fontawesome.com/)
 * [Bootstrap](https://getbootstrap.com/)
 * [Google Fonts](https://fonts.google.com/)
@@ -280,12 +280,72 @@ Other features which could be added:
 <a></a>
 
 ### **Validator Testing**
+* HTML
+    * No errors were returned when passing through [W3C HTML Validation Service](https://validator.w3.org/)
 
+* CSS
+    * No errors were returned when passing through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 
 <a></a>
 
 ### **Known Bugs**
 
+* Hero Image
+    * *Bug* - The hero image worked correctly on desktop and appeared to render correctly when using dev tools to test mobile responsiveness. However, when I deployed the site and checked on mobile devices, the image was rendering far too large - only a small corner was appearing. 
+
+    * *Fix* - Applied flex-wrap to the hero image id in css.
+
+    * *Verdict* - Image now shows as expected on all browsers.
+
+* Hamburger dropdown menu
+    * *Bug* - On mobile devices when you click the hamburger icon, the menu appeared. When you click on one of the links the dropdown menu didn't disappear but stayed open. This was not a good user experience.
+
+    * *Fix* - I found various suggestions on fixes via Stack Overflow. Most fixes were using JavaScript, though one suggested to use the data-bs-toggle and data-bs-target data attributes in the markup on each link to toggle the Collapse navbar (this didn't work). I used JavaScript to add a click event listener on the menu items, linked to the navbarNavDropdown id.
+
+    * *Verdict* - The burger menu now collapses on click/tap of the nav link.
+
+* Creative team names and imdb Icons
+    * *Bug* - The creative team names and icons were originally in <p> tags within a div. They weren't particularly mobile responsive and the formatting and spacing was out when testing on other devices.  
+
+    * *Fix* - I rewrote the html to put the creative team names and imdb icons into a list. I put the icons as their own list item.
+   
+    * *Verdict* - The icons move responsively within the div now across all devices. 
+   
+* Fixed navigation bar
+    * *Bug* - The navigation bar wasn't sticking at the top of the page on scroll.
+
+    * *Fix* - I removed overflow: hidden properties which I had originally included as a fix to a white space issue (see further down!)
+
+    * *Verdict* - Navbar now stays at the top of the page when you scroll down across all devices.
+
+* Navigation bar width
+    * *Bug* - There was small gap on the left side of the website between the browser edge and the nav bar. The hero image was visible in the gap across all devices.
+
+    * *Fix* - I created a .row class to override the Bootstrap properties and remove the gutters.
+
+    * *Verdict* - Navbar now stretches 100% width with no gap.
+
+* Navigation and footer bar overflow
+    * *Bug* - White space was rendering on the right side of the website by the scroll bar caused by the navbar and footer overflowing.
+
+    * *Fix* - I reworked my html to adhere to container - row - column rules. I removed unnecessary nested divs and applied container-fluid class across the whole structure.
+
+    * *Verdict* - Containers all align and overflow on y-axis has disappeared. The user has a clean scrolling experience across all devices now.
+
+* Footer images
+    * *Bug* - Images in footer not rendering due to broken links/missing pathways.
+
+    * *Fix* - 
+
+    * *Verdict* -  
+   
+* Readme images and nav links
+    * *Bug* - Images and links not working in readme. 
+
+    * *Fix* - 
+
+    * *Verdict* -  
+   
 [Back to Top](#table-of-contents)
 
 ---
@@ -293,6 +353,22 @@ Other features which could be added:
 <a name="deployment"></a>
 
 ## **Deployment**
+
+This project was deployed via GitHub by executing the following steps. After writing the code, committing and pushing it to GitHub:
+
+1. Navigate to the repository on github and click Settings.
+2. From there, go to the Source section within the Github Pages section.
+3. Select master branch on the dropdown menu, and click save.
+4. Now the website is live on https://bizlett.github.io/faze-movie/
+5. Any time commits and pushes are sent to Github, the Github Pages site should update shortly after.
+
+To run the project locally:
+
+1. Click the green Clone or Download button on the Github Repository
+2. Using the Clone with HTTPS option, copy the link displayed.
+3. Open your IDE, and ensure the Git Terminal is open.
+4. Change the working directory to the location where the cloned directory is to go.
+5. Use the "git clone" command and paste the url copied in the second step.
 
 [Back to Top](#table-of-contents)
 
@@ -307,6 +383,9 @@ Other features which could be added:
 ### **Code**
 
 * [Anouk Smet](https://github.com/AnoukSmet/Naturazy) for README inspiration!
+* [W3Schools Online](https://www.w3schools.com/)
+* [CSS Tricks](https://css-tricks.com/)
+* [Learning Web Design by Jennifer Niederst Robbins](https://learningwebdesign.com/)
 
 <a></a>
 
@@ -320,8 +399,7 @@ Other features which could be added:
 
 ### **Acknowledgements**
 
-* [Simen Dahlin](https://github.com/Eventyret) for support in creating this website
-* Code Institute Slack community
+* [Simen Dahlin](https://github.com/Eventyret) and [Richard Wells](https://github.com/D0nni387) for their support in creating this website
 * Stack Overflow community
 * My partner Chris for his endless patience as I wrote this instead of planned our wedding...
 
