@@ -31,9 +31,9 @@ Thank you for visiting my project! If you have any feedback or questions, head o
     * [Future Features](#future-features)
 4. [Technologies](#technologies)
 5. [Testing](#testing)
-    * [Approach and Tools](#approach-tools)
+    * [Approach and Tools](#approach-and-tools)
     * [Validator Testing](#validator-testing)
-    * [Known Bugs](#known-bugs)
+    * [Bugs and Solutions](#bugs-and-solutions)
 6. [Deployment](#deployment)
 7. [Credits](#credits)
     * [Code](#code)
@@ -98,7 +98,6 @@ I decided that blues were a little overwhelming, losing that sense of being in s
 
 <img src="assets/readme/coolors-colourblind.png" alt="coolors palette for Faze website">
 
-
 #### *Structure*
 
 I have used [Bootstrap v5.0.2](https://getbootstrap.com/) to create the overall structure of my website.
@@ -123,21 +122,15 @@ I used [Balsamiq](https://balsamiq.com/wireframes/) to create wireframes for my 
 
 <a></a>
 
-### Desktop:
-
-![Desktop wireframe](assets/wireframes/desktop.png)
+* [Desktop](https://raw.githubusercontent.com/bizlett/faze-movie/master/assets/wireframes/desktop.png)
 
 <a></a>
 
-### Tablet:
-
-![Tablet wireframe](assets/wireframes/tablet.png)
+* [Tablet](https://raw.githubusercontent.com/bizlett/faze-movie/master/assets/wireframes/tablet.png)
 
 <a></a>
 
-### Mobile:
-
-![Mobile wireframe](assets/wireframes/phone.png)
+* [Mobile](https://raw.githubusercontent.com/bizlett/faze-movie/master/assets/wireframes/phone.png)
 
 [Back to Top](#table-of-contents)
 
@@ -197,7 +190,7 @@ I didn't want to link to a random film trailer, so opted to create one myself us
 
 This section wasn't originally planned as part of my wireframes. I decided to create it having reviewed the structure of my website and planned content, and deciding it was too minimalist. 
 
-In my wireframes, the news section originally covered off that tickets were due to be announced. However, in this version of the website I opted to link through to Picturehouse as the exhibitor for a UK release of this fictional film. I also created a second column for watching on demand. This meant I was able to incorporate some animation elements with a zoom overlay over the logos, linking to SVOD platforms. 
+In my wireframes, the news section originally covered off that tickets were due to be announced. However, in this version of the website I opted to link through to Picturehouse as the exhibitor for a UK release of this fictional film where people can search for their theatre to book tickets. I also created a second column for watching on demand. This meant I was able to incorporate some animation elements with a zoom overlay over the logos, linking to SVOD platforms. 
 
 #### News
 
@@ -215,9 +208,9 @@ I created several media queries for the gallery to drop the number of columns fr
 
 #### Footer
 
-SCREENSHOT TO BE ADDED
+![screenshot of footer](assets/readme/footer.png)
 
-My footer contains deliberately discreet financier logos (no links are purposeful) and links to terms of use, a privacy policy and industry regulators.
+My footer contains deliberately discreet financier logos (no links are purposeful) and links to terms of use, a privacy policy and industry regulators. The footer is in line with what would be the requirements of a client from the film industry and so has a slightly different purpose to what would usually be expected from a footer. 
 
 #### Scrollbar
 
@@ -235,7 +228,7 @@ User responses from testing have been very useful when thinking about future des
 
 In a future version, I would add custom error messages and confirmation that information has been submitted. 
 
-*"Clicking on the photo didn't open it or give it the option to zooom in"*
+*"Clicking on the photo didn't open it or give it the option to zoom in"*
 
 In a future version, I would add an image modal to give functionality for images to be opened.
 
