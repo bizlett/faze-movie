@@ -258,9 +258,9 @@ Other features which could be added:
 ## **Technologies**
 
 ### **Languages**
-* [HTML](https://en.wikipedia.org/wiki/HTML)
-* [CSS](https://en.wikipedia.org/wiki/CSS)
-* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+* [HTML](https://html.com/)
+* [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+* [JavaScript](https://www.javascript.com/)
 
 ### **Libraries & Frameworks**
 * [Font Awesome](https://fontawesome.com/)
@@ -306,7 +306,7 @@ Finally, I asked friends and family to test the website on their devices. I aske
 
 <a></a>
 
-### **Known Bugs**
+### **Bugs and Solutions**
 
 * Hero Image
     * *Bug* - The hero image worked correctly on desktop and appeared to render correctly when using dev tools to test mobile responsiveness. However, when I deployed the site and checked on mobile devices, the image was rendering far too large - only a small corner was appearing. 
@@ -318,7 +318,7 @@ Finally, I asked friends and family to test the website on their devices. I aske
 * Hamburger dropdown menu
     * *Bug* - On mobile devices when you click the hamburger icon, the menu appeared. When you click on one of the links the dropdown menu didn't disappear but stayed open. This was not a good user experience.
 
-    * *Fix* - I found various suggestions on fixes via Stack Overflow. Most fixes were using JavaScript, though one suggested to use the data-bs-toggle and data-bs-target data attributes in the markup on each link to toggle the Collapse navbar (this didn't work). I used JavaScript to add a click event listener on the menu items, linked to the navbarNavDropdown id.
+    * *Fix* - I found various suggestions on fixes suggested on various forums, but this one from [Stack Overflow](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-navbar-on-click) provided me with a code that I could edit to fix the issue. I tried the data-bs-toggle and data-bs-target data attributes suggestion on each link to toggle the Collapse navbar but this didn't work. So I used the JavaScript solution to add a click event listener on the menu items and linked it to the navbarNavDropdown id.
 
     * *Verdict* - The burger menu now collapses on click/tap of the nav link.
 
@@ -353,9 +353,9 @@ Finally, I asked friends and family to test the website on their devices. I aske
 * Footer images
     * *Bug* - Images in footer not rendering due to broken links/missing pathways.
 
-    * *Fix* - 
+    * *Fix* - I tried to fix with absolute and relative pathways and neither solution appeared to be working. The issue was due to the cache! I couldn't see the fix from Gitpod workspace.
 
-    * *Verdict* -  
+    * *Verdict* - Relative paths did work. After pushing the code, I could see the issue was fixed.
    
 [Back to Top](#table-of-contents)
 
