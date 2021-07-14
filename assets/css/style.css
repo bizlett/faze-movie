@@ -337,6 +337,7 @@ body {
     border-radius: 2rem;
     width: 90%;
     height: auto;
+    justify-items: center;
 }
 
 /* Watch */
